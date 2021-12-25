@@ -11,6 +11,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.item.enchantment.Enchantment;
 
 import net.mcreator.catastropheredo.enchantment.WitheringEnchantment;
+import net.mcreator.catastropheredo.enchantment.RandomPotionEffectEnchantment;
 import net.mcreator.catastropheredo.enchantment.PoisonousEnchantment;
 import net.mcreator.catastropheredo.enchantment.LifeStealEnchantment;
 import net.mcreator.catastropheredo.enchantment.AutoSmeltEnchantment;
@@ -25,6 +26,7 @@ public class CatastropheredoModEnchantments {
 	public static final Enchantment LIFE_STEAL = register("catastropheredo:life_steal", new LifeStealEnchantment());
 	public static final Enchantment POISONOUS = register("catastropheredo:poisonous", new PoisonousEnchantment());
 	public static final Enchantment WITHERING = register("catastropheredo:withering", new WitheringEnchantment());
+	public static final Enchantment RANDOM_POTION_EFFECT = register("catastropheredo:random_potion_effect", new RandomPotionEffectEnchantment());
 
 	private static Enchantment register(String registryname, Enchantment enchantment) {
 		REGISTRY.add(enchantment.setRegistryName(registryname));

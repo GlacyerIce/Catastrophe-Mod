@@ -1236,6 +1236,38 @@
       "ids": {},
       "registry_name": "steelapplerecipe",
       "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "RandomPotionEffectProcedure",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "random_potion_effect_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchants"
+    },
+    {
+      "name": "RandomPotionEffect",
+      "type": "enchantment",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "random_potion_effect",
+      "path": "~/Enchants"
     }
   ],
   "variable_elements": [],
@@ -1283,6 +1315,7 @@
       "item.catastropheredo.emerald_armor_armor_leggings": "Emerald Leggings",
       "subtitles.technopigstep": "THE BEST SONG IN EXSISTANCE",
       "item.catastropheredo.sakura_diamond_hoe": "Sakura Diamond Hoe",
+      "enchantment.catastropheredo.random_potion_effect": "Random Negative Potion Effect",
       "item.catastropheredo.true_pigstep": "True Pigstep",
       "item.catastropheredo.sakura_diamond_battle_axe": "Sakura Diamond Battle Axe",
       "block.catastropheredo.sakura_diamond_block": "Sakura Diamond Block",
