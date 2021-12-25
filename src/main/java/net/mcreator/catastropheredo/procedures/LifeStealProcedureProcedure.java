@@ -20,24 +20,32 @@ public class LifeStealProcedureProcedure {
 	public static void onEntityAttacked(LivingAttackEvent event) {
 		if (event != null && event.getEntity() != null) {
 			Entity entity = event.getEntity();
-			execute(event, event.getSource().getEntity());
+			execute(event, event.getSource().getEntity(), event.getAmount());
 		}
 	}
 
-	public static void execute(Entity sourceentity) {
-		execute(null, sourceentity);
+	public static void execute(Entity sourceentity, double amount) {
+		execute(null, sourceentity, amount);
 	}
 
-	private static void execute(@Nullable Event event, Entity sourceentity) {
+	private static void execute(@Nullable Event event, Entity sourceentity, double amount) {
 		if (sourceentity == null)
 			return;
+		double EnchantLevel = 0;
+		double Percentage = 0;
+		double DamageAt90 = 0;
+		double userHealth = 0;
+		double healthAdded = 0;
 		if (EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.LIFE_STEAL,
 				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) > 0) {
+			EnchantLevel = EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.LIFE_STEAL,
+					(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY));
+			Percentage = 3 / EnchantLevel;
+			DamageAt90 = amount * 0.9;
+			userHealth = sourceentity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1;
+			healthAdded = Math.round((DamageAt90 * Percentage) / 2) * 2;
 			if (sourceentity instanceof LivingEntity _entity)
-				_entity.setHealth((float) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1)
-						+ EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.LIFE_STEAL,
-								(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY))
-						+ 1));
+				_entity.setHealth((float) (userHealth + healthAdded));
 		}
 	}
 }
