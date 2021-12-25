@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "steelsteak",
+    "customModelName": "Normal",
+    "name": "Steel Steak",
+    "rarity": "EPIC",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CatastrophicFood"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 40,
+    "saturation": 20.0,
+    "eatingSpeed": 10,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": true,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true,
+    "onEaten": {
+      "name": "SteelSteakFoodEaten"
+    }
+  }
+}

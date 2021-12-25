@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SakuraDiamondBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SakuraDiamond"
+      },
+      {
+        "value": "CUSTOM:SakuraDiamondBlock"
+      },
+      {
+        "value": "CUSTOM:SakuraDiamond"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SakuraDiamondSword"
+    },
+    "name": "sak_dia_swo",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "sakura_diamond_helmet",
+    "enableBody": true,
+    "textureBody": "sakura_diamond_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "sakura_diamond_leggings",
+    "enableBoots": true,
+    "textureBoots": "sakura_diamond_boots",
+    "creativeTab": {
+      "value": "CUSTOM:CatastropheArmor"
+    },
+    "armorTextureFile": "sakura_diamond_",
+    "helmetName": "Sakura Diamond Helmet",
+    "bodyName": "Sakura Diamond Chestplate",
+    "leggingsName": "Sakura Diamond Leggings",
+    "bootsName": "Sakura Diamond Boots",
+    "helmetSpecialInfo": [
+      "This Helmet Seems To be Infused With A Strange Power"
+    ],
+    "bodySpecialInfo": [
+      "This Chestplate Seems To Be Infused With A Strange Power"
+    ],
+    "leggingsSpecialInfo": [
+      "These Leggings Seem To Be Infused With A Strange Power"
+    ],
+    "bootsSpecialInfo": [
+      "These Boots Seem To Be Infused With A Strange Power"
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 35,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 21,
+    "toughness": 0.0,
+    "knockbackResistance": 0.5,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:SakuraDiamond"
+      }
+    ]
+  }
+}

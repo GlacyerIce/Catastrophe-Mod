@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sweet_berries"
+    },
+    "1": {
+      "item": "minecraft:sweet_berries"
+    },
+    "2": {
+      "item": "minecraft:sweet_berries"
+    },
+    "3": {
+      "item": "minecraft:sweet_berries"
+    },
+    "4": {
+      "item": "minecraft:sugar"
+    },
+    "5": {
+      "item": "minecraft:sweet_berries"
+    },
+    "7": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "catastropheredo:sweet_berry_stew",
+    "count": 1
+  }
+}

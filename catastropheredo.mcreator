@@ -1,0 +1,1417 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Rawsteel",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rawsteel",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelOre",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ore",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ingot",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelPickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_pickaxe",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelAxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_axe",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelSword",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_sword",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelShovel",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_shovel",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelHoe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_hoe",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_pickaxe_recipe",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelAxeRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_axe_recipe",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelSwordRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_sword_recipe",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelShovelRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_shovel_recipe",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelHoeRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_hoe_recipe",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelNugget",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_nugget",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "Snugget",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snugget",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "Snugget2",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snugget_2",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_block",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "Bsteel",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bsteel",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "Bsteel2",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bsteel_2",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "Smeltsteelore",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smeltsteelore",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "GappleCow",
+      "type": "livingentity",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gapple_cow",
+      "path": "~/Entities"
+    },
+    {
+      "name": "GoldenSteakFoodEaten",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_steak_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NewMaterials/etc"
+    },
+    {
+      "name": "GoldenSteak",
+      "type": "food",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_steak",
+      "path": "~/NewMaterials/etc"
+    },
+    {
+      "name": "AutoSmelt",
+      "type": "enchantment",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_smelt",
+      "path": "~/Enchants"
+    },
+    {
+      "name": "AutoSmeltProcedure",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_smelt_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enchants"
+    },
+    {
+      "name": "Osteelingot",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osteelingot",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "LifeStealProcedure",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "life_steal_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchants"
+    },
+    {
+      "name": "SteelArmor",
+      "type": "armor",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_helmet_recipe",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_body_recipe",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_leggings_recipe",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_boots_recipe",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "LifeSteal",
+      "type": "enchantment",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "life_steal",
+      "path": "~/Enchants"
+    },
+    {
+      "name": "GappleCowEntityDies",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gapple_cow_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "SteelSteakFoodEaten",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_steak_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelSteak",
+      "type": "food",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_steak",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelSteakify",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_steakify",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelSteakify2",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_steakify_2",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "ChainMail",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chain_mail",
+      "path": "~/NewMaterials/Chainmail"
+    },
+    {
+      "name": "ChainMailHelm",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chain_mail_helm",
+      "path": "~/NewMaterials/Chainmail"
+    },
+    {
+      "name": "ChainMailChestplate",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chain_mail_chestplate",
+      "path": "~/NewMaterials/Chainmail"
+    },
+    {
+      "name": "ChainMailBoots",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chain_mail_boots",
+      "path": "~/NewMaterials/Chainmail"
+    },
+    {
+      "name": "ChainMailLeggings",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chain_mail_leggings",
+      "path": "~/NewMaterials/Chainmail"
+    },
+    {
+      "name": "ChainMailR",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chain_mail_r",
+      "path": "~/NewMaterials/Chainmail"
+    },
+    {
+      "name": "Emerald_ArmorArmor",
+      "type": "armor",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "Emerald_ArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_armor_helmet_recipe",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "Emerald_ArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_armor_body_recipe",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "Emerald_ArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_armor_leggings_recipe",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "Emerald_ArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_armor_boots_recipe",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "CatastropheArmor",
+      "type": "tab",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "catastrophe_armor",
+      "path": "~/Tabs"
+    },
+    {
+      "name": "Emerald_Pickaxe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_pickaxe",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "Emerald_Axe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_axe",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "Emerald_Sword",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_sword",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "Emerald_Shovel",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_shovel",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "Emerald_Hoe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_hoe",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "Emerald_PickaxeRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_pickaxe_recipe",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "Emerald_AxeRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_axe_recipe",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "Emerald_SwordRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_sword_recipe",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "Emerald_ShovelRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_shovel_recipe",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "Emerald_HoeRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_hoe_recipe",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "Poisonous",
+      "type": "enchantment",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poisonous",
+      "path": "~/Enchants"
+    },
+    {
+      "name": "PoisonousProcedure",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poisonous_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchants"
+    },
+    {
+      "name": "CatastropheMusicDiscs",
+      "type": "tab",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "catastrophe_music_discs",
+      "path": "~/Tabs"
+    },
+    {
+      "name": "TruePigstep",
+      "type": "musicdisc",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "true_pigstep",
+      "path": "~/MusicDiscs"
+    },
+    {
+      "name": "Carefree",
+      "type": "musicdisc",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carefree",
+      "path": "~/MusicDiscs"
+    },
+    {
+      "name": "Sunset",
+      "type": "painting",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sunset",
+      "path": "~/Others"
+    },
+    {
+      "name": "Endtherworld",
+      "type": "painting",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endtherworld",
+      "path": "~/Others"
+    },
+    {
+      "name": "Desert",
+      "type": "painting",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "desert",
+      "path": "~/Others"
+    },
+    {
+      "name": "LiteralBomb",
+      "type": "painting",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "literal_bomb",
+      "path": "~/Others"
+    },
+    {
+      "name": "OakArmor",
+      "type": "armor",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "Emeraldsheroofthevillage",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emeraldsheroofthevillage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "WitheringProcedure",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "withering_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchants"
+    },
+    {
+      "name": "Withering",
+      "type": "enchantment",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "withering",
+      "path": "~/Enchants"
+    },
+    {
+      "name": "OakH",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_h",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "OakC",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_c",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "OakL",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_l",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "OakB",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_b",
+      "path": "~/MakeItHaveMore"
+    },
+    {
+      "name": "TotallyAChest",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "totally_a_chest",
+      "path": "~/Others"
+    },
+    {
+      "name": "CatastrophicStorage",
+      "type": "tab",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "catastrophic_storage",
+      "path": "~/Tabs"
+    },
+    {
+      "name": "SakuraForest",
+      "type": "biome",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_forest",
+      "path": "~/Biomes/Sakura"
+    },
+    {
+      "name": "SakuraPlains",
+      "type": "biome",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_plains",
+      "path": "~/Biomes/Sakura"
+    },
+    {
+      "name": "SakuraMountains",
+      "type": "biome",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_mountains",
+      "path": "~/Biomes/Sakura"
+    },
+    {
+      "name": "SakuraBattleAxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_diamond_battle_axe",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "CatastropheToolsAndWeapons",
+      "type": "tab",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "catastrophe_tools_and_weapons",
+      "path": "~/Tabs"
+    },
+    {
+      "name": "SakuraDiamondSword",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_diamond_sword",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakuraDiamondPickaxe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_diamond_pickaxe",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakuraDiamondShovel",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_diamond_shovel",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakuraDiamondHoe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_diamond_hoe",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakuraDiamond",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_diamond",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakuraDiamondArmor",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_diamond_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakuraDiamondOre",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_diamond_ore",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "CatastrophicOres",
+      "type": "tab",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "catastrophic_ores",
+      "path": "~/Tabs"
+    },
+    {
+      "name": "SakuraDiamondBlock",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_diamond_block",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakDiaHelm",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sak_dia_helm",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakDiaChe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sak_dia_che",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakDiaLeg",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sak_dia_leg",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakDiaboo",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sak_diaboo",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakDiaBattleAxe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sak_dia_battle_axe",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakDiaSwo",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sak_dia_swo",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakDiaPick",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sak_dia_pick",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakDiaSho",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sak_dia_sho",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakDiaHoe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sak_dia_hoe",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakDiaBlo",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sak_dia_blo",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "SakDiaBloRev",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sak_dia_blo_rev",
+      "path": "~/NewMaterials/SakuraDiamond"
+    },
+    {
+      "name": "CatastrophicFood",
+      "type": "tab",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "catastrophic_food",
+      "path": "~/Tabs"
+    },
+    {
+      "name": "SweetBerryStew",
+      "type": "food",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sweet_berry_stew",
+      "path": "~/food/stewORsoup"
+    },
+    {
+      "name": "SweetBstewRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sweet_bstew_recipe",
+      "path": "~/food/recipies"
+    },
+    {
+      "name": "SteelApplePro",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_apple_pro",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "SteelApple",
+      "type": "food",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_apple",
+      "path": "~/NewMaterials/Steel"
+    },
+    {
+      "name": "Steelapplerecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steelapplerecipe",
+      "path": "~/NewMaterials/Steel"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "technopigstep",
+      "files": [
+        "pigstep-but-it_s-technoblade"
+      ],
+      "category": "music",
+      "subtitle": "THE BEST SONG IN EXSISTANCE"
+    },
+    {
+      "name": "carefree_disc",
+      "files": [
+        "carefree"
+      ],
+      "category": "music",
+      "subtitle": "Carefree By Kevin MacLeod"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.catastropheredo.emerald_sword": "Emerald Sword",
+      "item.catastropheredo.steel_armor_leggings": "Steel Leggings",
+      "item.catastropheredo.sakura_diamond_armor_boots": "Sakura Diamond Boots",
+      "item.catastropheredo.true_pigstep.desc": "Pigstep But Its Technoblade By avatarpeanut",
+      "item.catastropheredo.sakura_diamond_armor_helmet": "Sakura Diamond Helmet",
+      "biome.catastropheredo.sakura_forest": "Sakura Forest",
+      "item.catastropheredo.chain_mail": "Chain Mail",
+      "item.catastropheredo.emerald_armor_armor_boots": "Emerald Boots",
+      "item.catastropheredo.steel_pickaxe": "Steel Pickaxe",
+      "item.catastropheredo.oak_armor_chestplate": "Oak Chestplate",
+      "enchantment.catastropheredo.withering": "Withering",
+      "subtitles.carefree_disc": "Carefree By Kevin MacLeod",
+      "biome.catastropheredo.sakura_mountains": "Sakura Mountains",
+      "item.catastropheredo.steel_steak": "Steel Steak",
+      "item.catastropheredo.emerald_armor_armor_chestplate": "Emerald Chestplate",
+      "item.catastropheredo.steel_apple": "Steel Apple",
+      "item.catastropheredo.steel_armor_boots": "Steel Boots",
+      "biome.catastropheredo.sakura_plains": "Sakura Plains",
+      "item.catastropheredo.sweet_berry_stew": "Sweet Berry Stew",
+      "block.catastropheredo.totally_a_chest": "Totally A Chest",
+      "item.catastropheredo.steel_axe": "Steel Axe",
+      "item.catastropheredo.emerald_armor_armor_leggings": "Emerald Leggings",
+      "subtitles.technopigstep": "THE BEST SONG IN EXSISTANCE",
+      "item.catastropheredo.sakura_diamond_hoe": "Sakura Diamond Hoe",
+      "item.catastropheredo.true_pigstep": "True Pigstep",
+      "item.catastropheredo.sakura_diamond_battle_axe": "Sakura Diamond Battle Axe",
+      "block.catastropheredo.sakura_diamond_block": "Sakura Diamond Block",
+      "itemGroup.tabcatastrophe_tools_and_weapons": "Catastrophe Tools And Weapons",
+      "enchantment.catastropheredo.poisonous": "Poisonous",
+      "enchantment.catastropheredo.auto_smelt": "Auto Smelt",
+      "item.catastropheredo.golden_steak": "Golden Steak",
+      "block.catastropheredo.steel_block": "Steel Block",
+      "item.catastropheredo.steel_ingot": "Steel Ingot",
+      "item.catastropheredo.sakura_diamond_armor_leggings": "Sakura Diamond Leggings",
+      "item.catastropheredo.emerald_shovel": "Emerald Shovel",
+      "item.catastropheredo.emerald_armor_armor_helmet": "Emerald Helmet",
+      "item.catastropheredo.rawsteel": "Rawsteel",
+      "item.catastropheredo.steel_sword": "Steel Sword",
+      "itemGroup.tabcatastrophe_armor": "Catastrophe Armor",
+      "item.catastropheredo.sakura_diamond_pickaxe": "Sakura Diamond Pickaxe",
+      "item.catastropheredo.sakura_diamond_armor_chestplate": "Sakura Diamond Chestplate",
+      "item.catastropheredo.emerald_axe": "Emerald Axe",
+      "entity.catastropheredo.gapple_cow": "Gapple Cow",
+      "item.catastropheredo.sakura_diamond": "Sakura Diamond",
+      "item.catastropheredo.gapple_cow_spawn_egg": "Gapple Cow Spawn Egg",
+      "item.catastropheredo.carefree.desc": "Carefree By Kevion MacLeod",
+      "enchantment.catastropheredo.life_steal": "Life Steal",
+      "item.catastropheredo.sakura_diamond_shovel": "Sakura Diamond Shovel",
+      "item.catastropheredo.carefree": "Carefree",
+      "block.catastropheredo.sakura_diamond_ore": "Sakura Diamond Ore",
+      "item.catastropheredo.steel_nugget": "Steel Nugget",
+      "block.catastropheredo.steel_ore": "Steel Ore",
+      "item.catastropheredo.emerald_pickaxe": "Emerald Pickaxe",
+      "item.catastropheredo.steel_armor_helmet": "Steel Helmet",
+      "itemGroup.tabcatastrophe_music_discs": "Catastrophe Music Discs",
+      "item.catastropheredo.oak_armor_leggings": "Oak Leggings",
+      "item.catastropheredo.steel_armor_chestplate": "Steel Chestplate",
+      "itemGroup.tabcatastrophic_storage": "Catastrophic Storage",
+      "itemGroup.tabcatastrophic_ores": "Catastrophic Ores",
+      "itemGroup.tabcatastrophic_food": "Catastrophic Food",
+      "item.catastropheredo.oak_armor_boots": "Oak Boots",
+      "item.catastropheredo.steel_hoe": "Steel Hoe",
+      "item.catastropheredo.sakura_diamond_sword": "Sakura Diamond Sword",
+      "item.catastropheredo.steel_shovel": "Steel Shovel",
+      "item.catastropheredo.emerald_hoe": "Emerald Hoe",
+      "item.catastropheredo.oak_armor_helmet": "Oak Helmet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Biomes",
+        "children": [
+          {
+            "name": "Sakura",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "NewMaterials",
+        "children": [
+          {
+            "name": "SakuraDiamond",
+            "children": []
+          },
+          {
+            "name": "Steel",
+            "children": []
+          },
+          {
+            "name": "Chainmail",
+            "children": []
+          },
+          {
+            "name": "etc",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "MakeItHaveMore",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Enchants",
+        "children": []
+      },
+      {
+        "name": "MusicDiscs",
+        "children": []
+      },
+      {
+        "name": "Others",
+        "children": []
+      },
+      {
+        "name": "Tabs",
+        "children": []
+      },
+      {
+        "name": "food",
+        "children": [
+          {
+            "name": "stewORsoup",
+            "children": []
+          },
+          {
+            "name": "recipies",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "catastropheredo",
+    "modName": "CatastropheREDO",
+    "version": "1.0.1",
+    "author": "Emerald, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.catastropheredo",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100352418
+}

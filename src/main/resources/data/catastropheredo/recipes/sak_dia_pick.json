@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "catastropheredo:sakura_diamond"
+    },
+    "1": {
+      "item": "catastropheredo:sakura_diamond_block"
+    },
+    "2": {
+      "item": "catastropheredo:sakura_diamond"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "catastropheredo:sakura_diamond_pickaxe",
+    "count": 1
+  }
+}

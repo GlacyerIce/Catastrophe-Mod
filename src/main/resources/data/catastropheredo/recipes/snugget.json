@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "catastropheredo:steel_ingot"
+    }
+  ],
+  "result": {
+    "item": "catastropheredo:steel_nugget",
+    "count": 9
+  }
+}

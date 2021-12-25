@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "catastropheredo:blocks/sakura_diamond_ore",
+    "particle": "catastropheredo:blocks/sakura_diamond_ore"
+  }
+}

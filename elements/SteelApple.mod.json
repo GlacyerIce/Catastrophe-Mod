@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "apple",
+    "customModelName": "Normal",
+    "name": "Steel Apple",
+    "rarity": "UNCOMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CatastrophicFood"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 10,
+    "saturation": 3.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "SteelApplePro"
+    }
+  }
+}

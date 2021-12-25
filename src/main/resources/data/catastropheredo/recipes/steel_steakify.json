@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "catastropheredo:steel_nugget"
+    },
+    "1": {
+      "item": "catastropheredo:steel_ingot"
+    },
+    "2": {
+      "item": "catastropheredo:steel_nugget"
+    },
+    "3": {
+      "item": "catastropheredo:steel_ingot"
+    },
+    "4": {
+      "item": "catastropheredo:golden_steak"
+    },
+    "5": {
+      "item": "catastropheredo:steel_ingot"
+    },
+    "6": {
+      "item": "catastropheredo:steel_nugget"
+    },
+    "7": {
+      "item": "catastropheredo:steel_ingot"
+    },
+    "8": {
+      "item": "catastropheredo:steel_nugget"
+    }
+  },
+  "result": {
+    "item": "catastropheredo:steel_steak",
+    "count": 1
+  }
+}

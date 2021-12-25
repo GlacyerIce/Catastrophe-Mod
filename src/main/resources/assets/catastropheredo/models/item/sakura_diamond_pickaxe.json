@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "catastropheredo:items/sakura_diamond_pickaxe"
+  }
+}

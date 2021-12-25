@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sakura_diamond_axe",
+    "customModelName": "Normal",
+    "name": "Sakura Diamond Battle Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CatastropheToolsAndWeapons"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 11.0,
+    "attackSpeed": 1.2999999999999998,
+    "enchantability": 21,
+    "damageVsEntity": 12.5,
+    "usageCount": 1796,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SakuraDiamond"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

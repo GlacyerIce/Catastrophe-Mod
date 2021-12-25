@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "catastropheredo:blocks/bottom",
+    "up": "catastropheredo:blocks/top",
+    "north": "catastropheredo:blocks/front",
+    "east": "catastropheredo:blocks/back",
+    "south": "catastropheredo:blocks/back",
+    "west": "catastropheredo:blocks/right",
+    "particle": "catastropheredo:blocks/bottom"
+  }
+}

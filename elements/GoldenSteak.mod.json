@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "cooked_beef",
+    "customModelName": "Normal",
+    "name": "Golden Steak",
+    "rarity": "UNCOMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CatastrophicFood"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 10.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": true,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true,
+    "onEaten": {
+      "name": "GoldenSteakFoodEaten"
+    }
+  }
+}

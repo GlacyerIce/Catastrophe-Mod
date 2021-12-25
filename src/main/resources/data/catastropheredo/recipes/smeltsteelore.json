@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 40,
+  "ingredient": {
+    "item": "catastropheredo:rawsteel"
+  },
+  "result": {
+    "item": "catastropheredo:steel_ingot"
+  }
+}

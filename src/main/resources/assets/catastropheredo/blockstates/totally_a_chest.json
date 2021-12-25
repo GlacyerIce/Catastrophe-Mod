@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "catastropheredo:block/totally_a_chest"
+    },
+    "facing=east": {
+      "model": "catastropheredo:block/totally_a_chest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "catastropheredo:block/totally_a_chest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "catastropheredo:block/totally_a_chest",
+      "y": 270
+    }
+  }
+}

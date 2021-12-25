@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "catastropheredo:chain_mail"
+    },
+    "1": {
+      "item": "catastropheredo:chain_mail"
+    },
+    "2": {
+      "item": "catastropheredo:chain_mail"
+    },
+    "3": {
+      "item": "catastropheredo:chain_mail"
+    },
+    "5": {
+      "item": "catastropheredo:chain_mail"
+    }
+  },
+  "result": {
+    "item": "minecraft:chainmail_helmet",
+    "count": 1
+  }
+}

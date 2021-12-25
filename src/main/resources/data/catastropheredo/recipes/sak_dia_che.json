@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "catastropheredo:sakura_diamond"
+    },
+    "2": {
+      "item": "catastropheredo:sakura_diamond"
+    },
+    "3": {
+      "item": "catastropheredo:sakura_diamond"
+    },
+    "4": {
+      "item": "catastropheredo:sakura_diamond"
+    },
+    "5": {
+      "item": "catastropheredo:sakura_diamond"
+    },
+    "6": {
+      "item": "catastropheredo:sakura_diamond"
+    },
+    "7": {
+      "item": "catastropheredo:sakura_diamond"
+    },
+    "8": {
+      "item": "catastropheredo:sakura_diamond"
+    }
+  },
+  "result": {
+    "item": "catastropheredo:sakura_diamond_armor_chestplate",
+    "count": 1
+  }
+}

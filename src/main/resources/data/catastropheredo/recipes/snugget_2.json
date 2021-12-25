@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "catastropheredo:steel_nugget"
+    },
+    {
+      "item": "catastropheredo:steel_nugget"
+    },
+    {
+      "item": "catastropheredo:steel_nugget"
+    },
+    {
+      "item": "catastropheredo:steel_nugget"
+    },
+    {
+      "item": "catastropheredo:steel_nugget"
+    },
+    {
+      "item": "catastropheredo:steel_nugget"
+    },
+    {
+      "item": "catastropheredo:steel_nugget"
+    },
+    {
+      "item": "catastropheredo:steel_nugget"
+    },
+    {
+      "item": "catastropheredo:steel_nugget"
+    }
+  ],
+  "result": {
+    "item": "catastropheredo:steel_ingot",
+    "count": 1
+  }
+}

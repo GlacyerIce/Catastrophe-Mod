@@ -1,0 +1,22 @@
+{
+  "technopigstep": {
+    "category": "music",
+    "subtitle": "subtitles.technopigstep",
+    "sounds": [
+      {
+        "name": "catastropheredo:pigstep-but-it_s-technoblade",
+        "stream": true
+      }
+    ]
+  },
+  "carefree_disc": {
+    "category": "music",
+    "subtitle": "subtitles.carefree_disc",
+    "sounds": [
+      {
+        "name": "catastropheredo:carefree",
+        "stream": true
+      }
+    ]
+  }
+}

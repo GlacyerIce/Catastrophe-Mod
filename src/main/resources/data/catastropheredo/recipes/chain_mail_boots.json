@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "catastropheredo:chain_mail"
+    },
+    "2": {
+      "item": "catastropheredo:chain_mail"
+    },
+    "3": {
+      "item": "catastropheredo:chain_mail"
+    },
+    "5": {
+      "item": "catastropheredo:chain_mail"
+    }
+  },
+  "result": {
+    "item": "minecraft:chainmail_boots",
+    "count": 1
+  }
+}

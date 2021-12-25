@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Catastrophe Armor",
+    "icon": {
+      "value": "Blocks.EMERALD_BLOCK"
+    },
+    "showSearch": false
+  }
+}

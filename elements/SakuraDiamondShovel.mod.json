@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sakura_diamond_shovel",
+    "customModelName": "Normal",
+    "name": "Sakura Diamond Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CatastropheToolsAndWeapons"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 3,
+    "efficiency": 11.0,
+    "attackSpeed": 0.9,
+    "enchantability": 21,
+    "damageVsEntity": 8.0,
+    "usageCount": 1796,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SakuraDiamond"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_pigstep",
+    "name": "True Pigstep",
+    "description": "Pigstep But Its Technoblade By avatarpeanut",
+    "creativeTab": {
+      "value": "CUSTOM:CatastropheMusicDiscs"
+    },
+    "music": {
+      "value": "CUSTOM:technopigstep"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

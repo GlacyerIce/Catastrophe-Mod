@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "catastropheredo:chain_mail"
+    },
+    "2": {
+      "item": "catastropheredo:chain_mail"
+    },
+    "3": {
+      "item": "catastropheredo:chain_mail"
+    },
+    "4": {
+      "item": "catastropheredo:chain_mail"
+    },
+    "5": {
+      "item": "catastropheredo:chain_mail"
+    },
+    "6": {
+      "item": "catastropheredo:chain_mail"
+    },
+    "7": {
+      "item": "catastropheredo:chain_mail"
+    },
+    "8": {
+      "item": "catastropheredo:chain_mail"
+    }
+  },
+  "result": {
+    "item": "minecraft:chainmail_chestplate",
+    "count": 1
+  }
+}

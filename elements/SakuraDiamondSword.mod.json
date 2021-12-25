@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sakura_diamond_sword",
+    "customModelName": "Normal",
+    "name": "Sakura Diamond Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CatastropheToolsAndWeapons"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 10.0,
+    "attackSpeed": 3.0,
+    "enchantability": 21,
+    "damageVsEntity": 11.700000000000001,
+    "usageCount": 1796,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SakuraDiamond"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "carefreedisc",
+    "name": "Carefree",
+    "description": "Carefree By Kevion MacLeod",
+    "creativeTab": {
+      "value": "CUSTOM:CatastropheMusicDiscs"
+    },
+    "music": {
+      "value": "CUSTOM:carefree_disc"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "catastropheredo:blocks/steel_ore",
+    "particle": "catastropheredo:blocks/steel_ore"
+  }
+}
