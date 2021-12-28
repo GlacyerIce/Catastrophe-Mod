@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "oak_helmet",
+    "textureHelmet": "exposedcopperhelm",
     "enableBody": true,
-    "textureBody": "oak_chestplate",
+    "textureBody": "exposedcopperchestplate",
     "enableLeggings": true,
-    "textureLeggings": "oak_leggings",
+    "textureLeggings": "exposedcopperleggings",
     "enableBoots": true,
-    "textureBoots": "oak_boots",
+    "textureBoots": "exposedcopperboots",
     "onHelmetTick": {
       "name": "CopperArmourTickEvent"
     },

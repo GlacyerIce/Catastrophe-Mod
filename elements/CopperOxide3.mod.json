@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "oak_helmet",
+    "textureHelmet": "oxidizedcopperhelm",
     "enableBody": true,
-    "textureBody": "oak_chestplate",
+    "textureBody": "oxidizedcopperchestplate",
     "enableLeggings": true,
-    "textureLeggings": "oak_leggings",
+    "textureLeggings": "oxidizedcopperleggings",
     "enableBoots": true,
-    "textureBoots": "oak_boots",
+    "textureBoots": "oxidizedcopperboots",
     "creativeTab": {
       "value": "No creative tab entry"
     },
