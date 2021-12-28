@@ -77,7 +77,7 @@ public abstract class CopperOxide0Item extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			CopperArmourTickEventProcedure.execute(world, entity, itemstack);
+			CopperArmourTickEventProcedure.execute(entity, itemstack);
 		}
 	}
 
@@ -94,7 +94,7 @@ public abstract class CopperOxide0Item extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			CopperArmourTickEventProcedure.execute(world, entity, itemstack);
+			CopperArmourTickEventProcedure.execute(entity, itemstack);
 		}
 	}
 
@@ -111,7 +111,7 @@ public abstract class CopperOxide0Item extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			CopperArmourTickEventProcedure.execute(world, entity, itemstack);
+			CopperArmourTickEventProcedure.execute(entity, itemstack);
 		}
 	}
 
@@ -128,7 +128,7 @@ public abstract class CopperOxide0Item extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			CopperArmourTickEventProcedure.execute(world, entity, itemstack);
+			CopperArmourTickEventProcedure.execute(entity, itemstack);
 		}
 	}
 }

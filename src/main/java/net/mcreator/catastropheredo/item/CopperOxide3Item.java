@@ -67,7 +67,7 @@ public abstract class CopperOxide3Item extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "catastropheredo:textures/models/armor/oxidizedcopper__layer_1.png";
+			return "catastropheredo:textures/models/armor/weatheredcopper__layer_1.png";
 		}
 	}
 
@@ -79,7 +79,7 @@ public abstract class CopperOxide3Item extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "catastropheredo:textures/models/armor/oxidizedcopper__layer_1.png";
+			return "catastropheredo:textures/models/armor/weatheredcopper__layer_1.png";
 		}
 	}
 
@@ -91,7 +91,7 @@ public abstract class CopperOxide3Item extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "catastropheredo:textures/models/armor/oxidizedcopper__layer_2.png";
+			return "catastropheredo:textures/models/armor/weatheredcopper__layer_2.png";
 		}
 	}
 
@@ -103,7 +103,7 @@ public abstract class CopperOxide3Item extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "catastropheredo:textures/models/armor/oxidizedcopper__layer_1.png";
+			return "catastropheredo:textures/models/armor/weatheredcopper__layer_1.png";
 		}
 	}
 }

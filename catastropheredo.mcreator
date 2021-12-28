@@ -1,5 +1,4 @@
 {
-  "id_map": {},
   "mod_elements": [
     {
       "name": "Rawsteel",
@@ -7,7 +6,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "rawsteel",
       "path": "~/NewMaterials/Steel"
     },
@@ -17,7 +15,6 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_ore",
       "path": "~/NewMaterials/Steel"
     },
@@ -27,7 +24,6 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_ingot",
       "path": "~/NewMaterials/Steel"
     },
@@ -37,7 +33,6 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_pickaxe",
       "path": "~/NewMaterials/Steel"
     },
@@ -47,7 +42,6 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_axe",
       "path": "~/NewMaterials/Steel"
     },
@@ -57,7 +51,6 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_sword",
       "path": "~/NewMaterials/Steel"
     },
@@ -67,7 +60,6 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_shovel",
       "path": "~/NewMaterials/Steel"
     },
@@ -77,7 +69,6 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_hoe",
       "path": "~/NewMaterials/Steel"
     },
@@ -87,7 +78,6 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_pickaxe_recipe",
       "path": "~/NewMaterials/Steel"
     },
@@ -97,7 +87,6 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_axe_recipe",
       "path": "~/NewMaterials/Steel"
     },
@@ -107,7 +96,6 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_sword_recipe",
       "path": "~/NewMaterials/Steel"
     },
@@ -117,7 +105,6 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_shovel_recipe",
       "path": "~/NewMaterials/Steel"
     },
@@ -127,7 +114,6 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_hoe_recipe",
       "path": "~/NewMaterials/Steel"
     },
@@ -137,7 +123,6 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_nugget",
       "path": "~/NewMaterials/Steel"
     },
@@ -147,7 +132,6 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "snugget",
       "path": "~/NewMaterials/Steel"
     },
@@ -157,7 +141,6 @@
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "snugget_2",
       "path": "~/NewMaterials/Steel"
     },
@@ -167,7 +150,6 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_block",
       "path": "~/NewMaterials/Steel"
     },
@@ -177,7 +159,6 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bsteel",
       "path": "~/NewMaterials/Steel"
     },
@@ -187,7 +168,6 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bsteel_2",
       "path": "~/NewMaterials/Steel"
     },
@@ -197,7 +177,6 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "smeltsteelore",
       "path": "~/NewMaterials/Steel"
     },
@@ -207,7 +186,6 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "gapple_cow",
       "path": "~/Entities"
     },
@@ -217,7 +195,6 @@
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "golden_steak_food_eaten",
       "metadata": {
         "dependencies": [
@@ -235,7 +212,6 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "golden_steak",
       "path": "~/NewMaterials/etc"
     },
@@ -245,7 +221,6 @@
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "auto_smelt",
       "path": "~/Enchants"
     },
@@ -255,7 +230,6 @@
       "sortid": 47,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "auto_smelt_procedure",
       "metadata": {
         "dependencies": [
@@ -289,7 +263,6 @@
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "osteelingot",
       "path": "~/NewMaterials/Steel"
     },
@@ -299,7 +272,6 @@
       "sortid": 49,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "life_steal_procedure",
       "metadata": {
         "dependencies": [
@@ -321,7 +293,6 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_armor",
       "metadata": {
         "eh": true,
@@ -337,7 +308,6 @@
       "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_armor_helmet_recipe",
       "path": "~/NewMaterials/Steel"
     },
@@ -347,7 +317,6 @@
       "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_armor_body_recipe",
       "path": "~/NewMaterials/Steel"
     },
@@ -357,7 +326,6 @@
       "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_armor_leggings_recipe",
       "path": "~/NewMaterials/Steel"
     },
@@ -367,7 +335,6 @@
       "sortid": 53,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_armor_boots_recipe",
       "path": "~/NewMaterials/Steel"
     },
@@ -377,7 +344,6 @@
       "sortid": 54,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "life_steal",
       "path": "~/Enchants"
     },
@@ -387,7 +353,6 @@
       "sortid": 55,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "gapple_cow_entity_dies",
       "metadata": {
         "dependencies": [
@@ -417,7 +382,6 @@
       "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_steak_food_eaten",
       "metadata": {
         "dependencies": [
@@ -435,7 +399,6 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_steak",
       "path": "~/NewMaterials/Steel"
     },
@@ -445,7 +408,6 @@
       "sortid": 57,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_steakify",
       "path": "~/NewMaterials/Steel"
     },
@@ -455,7 +417,6 @@
       "sortid": 58,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_steakify_2",
       "path": "~/NewMaterials/Steel"
     },
@@ -465,7 +426,6 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chain_mail",
       "path": "~/NewMaterials/Chainmail"
     },
@@ -475,7 +435,6 @@
       "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chain_mail_helm",
       "path": "~/NewMaterials/Chainmail"
     },
@@ -485,7 +444,6 @@
       "sortid": 60,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chain_mail_chestplate",
       "path": "~/NewMaterials/Chainmail"
     },
@@ -495,7 +453,6 @@
       "sortid": 61,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chain_mail_boots",
       "path": "~/NewMaterials/Chainmail"
     },
@@ -505,7 +462,6 @@
       "sortid": 62,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chain_mail_leggings",
       "path": "~/NewMaterials/Chainmail"
     },
@@ -515,7 +471,6 @@
       "sortid": 63,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "chain_mail_r",
       "path": "~/NewMaterials/Chainmail"
     },
@@ -525,7 +480,6 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emerald_armor_armor",
       "metadata": {
         "eh": true,
@@ -541,7 +495,6 @@
       "sortid": 64,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emerald_armor_armor_helmet_recipe",
       "path": "~/MakeItHaveMore"
     },
@@ -551,7 +504,6 @@
       "sortid": 65,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emerald_armor_armor_body_recipe",
       "path": "~/MakeItHaveMore"
     },
@@ -561,7 +513,6 @@
       "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emerald_armor_armor_leggings_recipe",
       "path": "~/MakeItHaveMore"
     },
@@ -571,7 +522,6 @@
       "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emerald_armor_armor_boots_recipe",
       "path": "~/MakeItHaveMore"
     },
@@ -581,7 +531,6 @@
       "sortid": 68,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "catastrophe_armor",
       "path": "~/Tabs"
     },
@@ -591,7 +540,6 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emerald_pickaxe",
       "path": "~/MakeItHaveMore"
     },
@@ -601,7 +549,6 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emerald_axe",
       "path": "~/MakeItHaveMore"
     },
@@ -611,7 +558,6 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emerald_sword",
       "path": "~/MakeItHaveMore"
     },
@@ -621,7 +567,6 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emerald_shovel",
       "path": "~/MakeItHaveMore"
     },
@@ -631,7 +576,6 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emerald_hoe",
       "path": "~/MakeItHaveMore"
     },
@@ -641,7 +585,6 @@
       "sortid": 69,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emerald_pickaxe_recipe",
       "path": "~/MakeItHaveMore"
     },
@@ -651,7 +594,6 @@
       "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emerald_axe_recipe",
       "path": "~/MakeItHaveMore"
     },
@@ -661,7 +603,6 @@
       "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emerald_sword_recipe",
       "path": "~/MakeItHaveMore"
     },
@@ -671,7 +612,6 @@
       "sortid": 72,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emerald_shovel_recipe",
       "path": "~/MakeItHaveMore"
     },
@@ -681,7 +621,6 @@
       "sortid": 73,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emerald_hoe_recipe",
       "path": "~/MakeItHaveMore"
     },
@@ -691,7 +630,6 @@
       "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "poisonous",
       "path": "~/Enchants"
     },
@@ -701,7 +639,6 @@
       "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "poisonous_procedure",
       "metadata": {
         "dependencies": [
@@ -723,7 +660,6 @@
       "sortid": 76,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "catastrophe_music_discs",
       "path": "~/Tabs"
     },
@@ -733,7 +669,6 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "true_pigstep",
       "path": "~/MusicDiscs"
     },
@@ -743,7 +678,6 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "carefree",
       "path": "~/MusicDiscs"
     },
@@ -753,7 +687,6 @@
       "sortid": 77,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sunset",
       "path": "~/Others"
     },
@@ -763,7 +696,6 @@
       "sortid": 78,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "endtherworld",
       "path": "~/Others"
     },
@@ -773,7 +705,6 @@
       "sortid": 79,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "desert",
       "path": "~/Others"
     },
@@ -783,7 +714,6 @@
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "literal_bomb",
       "path": "~/Others"
     },
@@ -793,7 +723,6 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oak_armor",
       "metadata": {
         "eh": true,
@@ -809,7 +738,6 @@
       "sortid": 81,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "emeraldsheroofthevillage",
       "metadata": {
         "dependencies": [
@@ -827,7 +755,6 @@
       "sortid": 82,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "withering_procedure",
       "metadata": {
         "dependencies": [
@@ -849,7 +776,6 @@
       "sortid": 83,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "withering",
       "path": "~/Enchants"
     },
@@ -859,7 +785,6 @@
       "sortid": 84,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oak_h",
       "path": "~/MakeItHaveMore"
     },
@@ -869,7 +794,6 @@
       "sortid": 85,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oak_c",
       "path": "~/MakeItHaveMore"
     },
@@ -879,7 +803,6 @@
       "sortid": 86,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oak_l",
       "path": "~/MakeItHaveMore"
     },
@@ -889,7 +812,6 @@
       "sortid": 87,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oak_b",
       "path": "~/MakeItHaveMore"
     },
@@ -899,7 +821,6 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "totally_a_chest",
       "path": "~/Others"
     },
@@ -909,7 +830,6 @@
       "sortid": 88,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "catastrophic_storage",
       "path": "~/Tabs"
     },
@@ -919,7 +839,6 @@
       "sortid": 89,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sakura_forest",
       "path": "~/Biomes/Sakura"
     },
@@ -929,7 +848,6 @@
       "sortid": 90,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sakura_plains",
       "path": "~/Biomes/Sakura"
     },
@@ -939,7 +857,6 @@
       "sortid": 91,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sakura_mountains",
       "path": "~/Biomes/Sakura"
     },
@@ -949,7 +866,6 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sakura_diamond_battle_axe",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -959,7 +875,6 @@
       "sortid": 92,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "catastrophe_tools_and_weapons",
       "path": "~/Tabs"
     },
@@ -969,7 +884,6 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sakura_diamond_sword",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -979,7 +893,6 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sakura_diamond_pickaxe",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -989,7 +902,6 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sakura_diamond_shovel",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -999,7 +911,6 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sakura_diamond_hoe",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -1009,7 +920,6 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sakura_diamond",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -1019,7 +929,6 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sakura_diamond_armor",
       "metadata": {
         "eh": true,
@@ -1035,7 +944,6 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sakura_diamond_ore",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -1045,7 +953,6 @@
       "sortid": 93,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "catastrophic_ores",
       "path": "~/Tabs"
     },
@@ -1055,7 +962,6 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sakura_diamond_block",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -1065,7 +971,6 @@
       "sortid": 94,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sak_dia_helm",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -1075,7 +980,6 @@
       "sortid": 95,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sak_dia_che",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -1085,7 +989,6 @@
       "sortid": 96,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sak_dia_leg",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -1095,7 +998,6 @@
       "sortid": 97,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sak_diaboo",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -1105,7 +1007,6 @@
       "sortid": 98,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sak_dia_battle_axe",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -1115,7 +1016,6 @@
       "sortid": 99,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sak_dia_swo",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -1125,7 +1025,6 @@
       "sortid": 100,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sak_dia_pick",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -1135,7 +1034,6 @@
       "sortid": 101,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sak_dia_sho",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -1145,7 +1043,6 @@
       "sortid": 102,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sak_dia_hoe",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -1155,7 +1052,6 @@
       "sortid": 103,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sak_dia_blo",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -1165,7 +1061,6 @@
       "sortid": 104,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sak_dia_blo_rev",
       "path": "~/NewMaterials/SakuraDiamond"
     },
@@ -1175,7 +1070,6 @@
       "sortid": 105,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "catastrophic_food",
       "path": "~/Tabs"
     },
@@ -1185,7 +1079,6 @@
       "sortid": 105,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sweet_berry_stew",
       "path": "~/food/stewORsoup"
     },
@@ -1195,7 +1088,6 @@
       "sortid": 106,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sweet_bstew_recipe",
       "path": "~/food/recipies"
     },
@@ -1205,7 +1097,6 @@
       "sortid": 107,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_apple_pro",
       "metadata": {
         "dependencies": [
@@ -1223,7 +1114,6 @@
       "sortid": 108,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steel_apple",
       "path": "~/NewMaterials/Steel"
     },
@@ -1233,7 +1123,6 @@
       "sortid": 109,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "steelapplerecipe",
       "path": "~/NewMaterials/Steel"
     },
@@ -1243,7 +1132,6 @@
       "sortid": 112,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "random_potion_effect_procedure",
       "metadata": {
         "dependencies": [
@@ -1265,7 +1153,6 @@
       "sortid": 113,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "random_potion_effect",
       "path": "~/Enchants"
     },
@@ -1275,7 +1162,6 @@
       "sortid": 115,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "copper_armour_tick_event",
       "metadata": {
         "dependencies": [
@@ -1286,10 +1172,6 @@
           {
             "name": "itemstack",
             "type": "itemstack"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -1299,9 +1181,8 @@
       "name": "CopperOxide1",
       "type": "armor",
       "sortid": 116,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "copper_oxide_1",
       "metadata": {
         "eh": true,
@@ -1315,9 +1196,8 @@
       "name": "CoperOxide2",
       "type": "armor",
       "sortid": 117,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "coper_oxide_2",
       "metadata": {
         "eh": true,
@@ -1331,9 +1211,8 @@
       "name": "CopperOxide0",
       "type": "armor",
       "sortid": 118,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "copper_oxide_0",
       "metadata": {
         "eh": true,
@@ -1349,7 +1228,6 @@
       "sortid": 119,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "copper_oxide_3",
       "metadata": {
         "eh": true,
@@ -1570,5 +1448,5 @@
     "modElementsPackage": "net.mcreator.catastropheredo",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100352418
+  "mcreatorVersion": 202100353117
 }
