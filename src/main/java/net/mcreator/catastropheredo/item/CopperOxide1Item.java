@@ -71,12 +71,12 @@ public abstract class CopperOxide1Item extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "catastropheredo:textures/models/armor/oak__layer_1.png";
+			return "catastropheredo:textures/models/armor/exposedcopper__layer_1.png";
 		}
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			CopperArmourTickEventProcedure.execute(entity, itemstack);
+			CopperArmourTickEventProcedure.execute(world, entity, itemstack);
 		}
 	}
 
@@ -88,12 +88,12 @@ public abstract class CopperOxide1Item extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "catastropheredo:textures/models/armor/oak__layer_1.png";
+			return "catastropheredo:textures/models/armor/exposedcopper__layer_1.png";
 		}
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			CopperArmourTickEventProcedure.execute(entity, itemstack);
+			CopperArmourTickEventProcedure.execute(world, entity, itemstack);
 		}
 	}
 
@@ -105,12 +105,12 @@ public abstract class CopperOxide1Item extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "catastropheredo:textures/models/armor/oak__layer_2.png";
+			return "catastropheredo:textures/models/armor/exposedcopper__layer_2.png";
 		}
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			CopperArmourTickEventProcedure.execute(entity, itemstack);
+			CopperArmourTickEventProcedure.execute(world, entity, itemstack);
 		}
 	}
 
@@ -122,12 +122,12 @@ public abstract class CopperOxide1Item extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "catastropheredo:textures/models/armor/oak__layer_1.png";
+			return "catastropheredo:textures/models/armor/exposedcopper__layer_1.png";
 		}
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			CopperArmourTickEventProcedure.execute(entity, itemstack);
+			CopperArmourTickEventProcedure.execute(world, entity, itemstack);
 		}
 	}
 }
