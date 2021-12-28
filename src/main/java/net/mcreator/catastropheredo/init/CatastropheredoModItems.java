@@ -42,6 +42,10 @@ import net.mcreator.catastropheredo.item.Emerald_PickaxeItem;
 import net.mcreator.catastropheredo.item.Emerald_HoeItem;
 import net.mcreator.catastropheredo.item.Emerald_AxeItem;
 import net.mcreator.catastropheredo.item.Emerald_ArmorArmorItem;
+import net.mcreator.catastropheredo.item.CopperOxide3Item;
+import net.mcreator.catastropheredo.item.CopperOxide1Item;
+import net.mcreator.catastropheredo.item.CopperOxide0Item;
+import net.mcreator.catastropheredo.item.CoperOxide2Item;
 import net.mcreator.catastropheredo.item.ChainMailItem;
 import net.mcreator.catastropheredo.item.CarefreeItem;
 
@@ -101,6 +105,22 @@ public class CatastropheredoModItems {
 	public static final Item SAKURA_DIAMOND_ORE = register(CatastropheredoModBlocks.SAKURA_DIAMOND_ORE, CatastropheredoModTabs.TAB_CATASTROPHIC_ORES);
 	public static final Item SWEET_BERRY_STEW = register(new SweetBerryStewItem());
 	public static final Item STEEL_APPLE = register(new SteelAppleItem());
+	public static final Item COPPER_OXIDE_1_HELMET = register(new CopperOxide1Item.Helmet());
+	public static final Item COPPER_OXIDE_1_CHESTPLATE = register(new CopperOxide1Item.Chestplate());
+	public static final Item COPPER_OXIDE_1_LEGGINGS = register(new CopperOxide1Item.Leggings());
+	public static final Item COPPER_OXIDE_1_BOOTS = register(new CopperOxide1Item.Boots());
+	public static final Item COPER_OXIDE_2_HELMET = register(new CoperOxide2Item.Helmet());
+	public static final Item COPER_OXIDE_2_CHESTPLATE = register(new CoperOxide2Item.Chestplate());
+	public static final Item COPER_OXIDE_2_LEGGINGS = register(new CoperOxide2Item.Leggings());
+	public static final Item COPER_OXIDE_2_BOOTS = register(new CoperOxide2Item.Boots());
+	public static final Item COPPER_OXIDE_0_HELMET = register(new CopperOxide0Item.Helmet());
+	public static final Item COPPER_OXIDE_0_CHESTPLATE = register(new CopperOxide0Item.Chestplate());
+	public static final Item COPPER_OXIDE_0_LEGGINGS = register(new CopperOxide0Item.Leggings());
+	public static final Item COPPER_OXIDE_0_BOOTS = register(new CopperOxide0Item.Boots());
+	public static final Item COPPER_OXIDE_3_HELMET = register(new CopperOxide3Item.Helmet());
+	public static final Item COPPER_OXIDE_3_CHESTPLATE = register(new CopperOxide3Item.Chestplate());
+	public static final Item COPPER_OXIDE_3_LEGGINGS = register(new CopperOxide3Item.Leggings());
+	public static final Item COPPER_OXIDE_3_BOOTS = register(new CopperOxide3Item.Boots());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
