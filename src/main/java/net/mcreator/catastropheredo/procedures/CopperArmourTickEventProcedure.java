@@ -1,8 +1,5 @@
 package net.mcreator.catastropheredo.procedures;
 
-import net.minecraftforge.fmllegacy.server.ServerLifecycleHooks;
-
-import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.ItemStack;
@@ -11,15 +8,11 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.ChatType;
-import net.minecraft.Util;
 
 import net.mcreator.catastropheredo.init.CatastropheredoModItems;
 
 public class CopperArmourTickEventProcedure {
-	public static void execute(LevelAccessor world, Entity entity, ItemStack itemstack) {
+	public static void execute(Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
 		ItemStack item = ItemStack.EMPTY;
@@ -27,24 +20,14 @@ public class CopperArmourTickEventProcedure {
 		double ticker = 0;
 		double oxide = 0;
 		double RandomTickerValue = 0;
-		if (!world.isClientSide()) {
-			MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
-			if (mcserv != null)
-				mcserv.getPlayerList().broadcastMessage(new TextComponent("CHECKING ENCHANTMENTS"), ChatType.SYSTEM, Util.NIL_UUID);
-		}
 		if ((itemstack).isEnchanted() && (EnchantmentHelper.getItemEnchantmentLevel(Enchantments.MENDING, itemstack) != 0
 				|| EnchantmentHelper.getItemEnchantmentLevel(Enchantments.UNBREAKING, itemstack) != 0)) {
 			return;
 		}
 		RandomTickerValue = 1200000 + 768000 * Math.random();
-		if (itemstack.getOrCreateTag().getDouble("ticker") == 0) {
+		if (itemstack.getOrCreateTag().getDouble("ticker") < 1200000) {
 			itemstack.getOrCreateTag().putDouble("ticker", RandomTickerValue);
 			return;
-		}
-		if (!world.isClientSide()) {
-			MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
-			if (mcserv != null)
-				mcserv.getPlayerList().broadcastMessage(new TextComponent("RUNNING TICKER"), ChatType.SYSTEM, Util.NIL_UUID);
 		}
 		ticks = itemstack.getOrCreateTag().getDouble("ticks");
 		ticker = itemstack.getOrCreateTag().getDouble("ticker");
@@ -195,20 +178,6 @@ public class CopperArmourTickEventProcedure {
 			(item).getOrCreateTag().putDouble("oxidise", (itemstack.getOrCreateTag().getDouble("oxidise") + 1));
 			(item).getOrCreateTag().putDouble("ticks", 0);
 			(item).getOrCreateTag().putDouble("ticker", RandomTickerValue);
-		}
-		if (!world.isClientSide()) {
-			MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
-			if (mcserv != null)
-				mcserv.getPlayerList().broadcastMessage(
-						new TextComponent((new java.text.DecimalFormat("##.##").format(itemstack.getOrCreateTag().getDouble("ticks")))),
-						ChatType.SYSTEM, Util.NIL_UUID);
-		}
-		if (!world.isClientSide()) {
-			MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
-			if (mcserv != null)
-				mcserv.getPlayerList().broadcastMessage(
-						new TextComponent((new java.text.DecimalFormat("##.##").format(itemstack.getOrCreateTag().getDouble("ticker")))),
-						ChatType.SYSTEM, Util.NIL_UUID);
 		}
 	}
 }
