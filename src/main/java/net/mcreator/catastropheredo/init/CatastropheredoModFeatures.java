@@ -19,6 +19,8 @@ import net.minecraft.core.Registry;
 import net.mcreator.catastropheredo.world.features.ores.SteelOreFeature;
 import net.mcreator.catastropheredo.world.features.ores.SilverOreFeature;
 import net.mcreator.catastropheredo.world.features.ores.SakuraDiamondOreFeature;
+import net.mcreator.catastropheredo.world.features.SakuratreeflatFeature;
+import net.mcreator.catastropheredo.world.features.SakuraTreeFeature;
 
 import java.util.Set;
 import java.util.Map;
@@ -34,6 +36,10 @@ public class CatastropheredoModFeatures {
 				SakuraDiamondOreFeature.GENERATE_BIOMES, SakuraDiamondOreFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(SilverOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, SilverOreFeature.GENERATE_BIOMES,
 				SilverOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(SakuratreeflatFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES,
+				SakuratreeflatFeature.GENERATE_BIOMES, SakuratreeflatFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(SakuraTreeFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES,
+				SakuraTreeFeature.GENERATE_BIOMES, SakuraTreeFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

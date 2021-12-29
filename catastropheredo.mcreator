@@ -1172,8 +1172,27 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
+      },
+      "path": "~/items/armor/copper"
+    },
+    {
+      "name": "CopperOxide0",
+      "type": "armor",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_oxide_0",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
       },
       "path": "~/items/armor/copper"
     },
@@ -1193,27 +1212,12 @@
       "path": "~/items/armor/copper"
     },
     {
-      "name": "CoperOxide2",
+      "name": "CopperOxide2",
       "type": "armor",
       "sortid": 117,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coper_oxide_2",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/items/armor/copper"
-    },
-    {
-      "name": "CopperOxide0",
-      "type": "armor",
-      "sortid": 118,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "copper_oxide_0",
+      "registry_name": "copper_oxide_2",
       "metadata": {
         "eh": true,
         "el": true,
@@ -1308,6 +1312,160 @@
       "locked_code": false,
       "registry_name": "silvernugget_1",
       "path": "~/recipes"
+    },
+    {
+      "name": "SakuraLog",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_log",
+      "path": "~/items/SakuraTree"
+    },
+    {
+      "name": "SakruaLeaves",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakrua_leaves",
+      "path": "~/items/SakuraTree"
+    },
+    {
+      "name": "SakuraSapplingCheckGround",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_sappling_check_ground",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/items/SakuraTree"
+    },
+    {
+      "name": "Logs",
+      "type": "tag",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logs",
+      "path": "~/items/SakuraTree"
+    },
+    {
+      "name": "Leaves",
+      "type": "tag",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaves",
+      "path": "~/items/SakuraTree"
+    },
+    {
+      "name": "SakuraSapling",
+      "type": "plant",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_sapling",
+      "path": "~/items/SakuraTree"
+    },
+    {
+      "name": "Sakuratreeflat",
+      "type": "structure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakuratreeflat",
+      "path": "~/items/SakuraTree"
+    },
+    {
+      "name": "SakuraTree",
+      "type": "structure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_tree",
+      "path": "~/items/SakuraTree"
+    },
+    {
+      "name": "SakuraSaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_sapling_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/items/SakuraTree"
+    },
+    {
+      "name": "BonemealSakuraSapling",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_sakura_sapling",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/items/SakuraTree"
     }
   ],
   "variable_elements": [],
@@ -1332,11 +1490,14 @@
   "language_map": {
     "en_us": {
       "item.catastropheredo.emerald_sword": "Emerald Sword",
-      "item.catastropheredo.steel_armor_leggings": "Steel Leggings",
       "item.catastropheredo.sakura_diamond_armor_boots": "Sakura Diamond Boots",
-      "item.catastropheredo.true_pigstep.desc": "Pigstep But Its Technoblade By avatarpeanut",
+      "item.catastropheredo.steel_armor_leggings": "Steel Leggings",
       "item.catastropheredo.sakura_diamond_armor_helmet": "Sakura Diamond Helmet",
+      "item.catastropheredo.true_pigstep.desc": "Pigstep But Its Technoblade By avatarpeanut",
       "biome.catastropheredo.sakura_forest": "Sakura Forest",
+      "item.catastropheredo.copper_oxide_2_chestplate": "Weathered Copper Chestplate Body",
+      "block.catastropheredo.sakura_log": "Sakura Log",
+      "item.catastropheredo.copper_oxide_2_boots": "Weathered Copper Chestplate Boots",
       "item.catastropheredo.chain_mail": "Chain Mail",
       "item.catastropheredo.emerald_armor_armor_boots": "Emerald Boots",
       "item.catastropheredo.steel_pickaxe": "Steel Pickaxe",
@@ -1362,24 +1523,25 @@
       "enchantment.catastropheredo.random_potion_effect": "Random Negative Potion Effect",
       "item.catastropheredo.true_pigstep": "True Pigstep",
       "item.catastropheredo.sakura_diamond_battle_axe": "Sakura Diamond Battle Axe",
+      "item.catastropheredo.copper_oxide_2_helmet": "Weathered Copper Chestplate Helmet",
       "block.catastropheredo.sakura_diamond_block": "Sakura Diamond Block",
       "itemGroup.tabcatastrophe_tools_and_weapons": "Catastrophe Tools And Weapons",
       "enchantment.catastropheredo.poisonous": "Poisonous",
       "enchantment.catastropheredo.auto_smelt": "Auto Smelt",
-      "item.catastropheredo.coper_oxide_2_boots": "Weathered Copper Chestplate Boots",
       "item.catastropheredo.golden_steak": "Golden Steak",
       "block.catastropheredo.steel_block": "Steel Block",
       "item.catastropheredo.steel_ingot": "Steel Ingot",
       "item.catastropheredo.copper_oxide_1_boots": "Exposed Copper Chestplate Boots",
       "item.catastropheredo.copper_oxide_0_helmet": "Copper Chestplate Helmet",
       "item.catastropheredo.sakura_diamond_armor_leggings": "Sakura Diamond Leggings",
-      "item.catastropheredo.coper_oxide_2_leggings": "Weathered Copper Chestplate Leggings",
       "item.catastropheredo.emerald_shovel": "Emerald Shovel",
       "item.catastropheredo.emerald_armor_armor_helmet": "Emerald Helmet",
-      "item.catastropheredo.coper_oxide_2_chestplate": "Weathered Copper Chestplate Body",
+      "block.catastropheredo.sakrua_leaves": "Sakura Leaves",
+      "block.catastropheredo.sakura_sapling": "Sakura Sapling",
       "item.catastropheredo.rawsteel": "Rawsteel",
       "item.catastropheredo.steel_sword": "Steel Sword",
       "itemGroup.tabcatastrophe_armor": "Catastrophe Armor",
+      "item.catastropheredo.copper_oxide_2_leggings": "Weathered Copper Chestplate Leggings",
       "item.catastropheredo.sakura_diamond_pickaxe": "Sakura Diamond Pickaxe",
       "item.catastropheredo.sakura_diamond_armor_chestplate": "Sakura Diamond Chestplate",
       "item.catastropheredo.emerald_axe": "Emerald Axe",
@@ -1414,7 +1576,6 @@
       "item.catastropheredo.sakura_diamond_sword": "Sakura Diamond Sword",
       "item.catastropheredo.steel_shovel": "Steel Shovel",
       "item.catastropheredo.emerald_hoe": "Emerald Hoe",
-      "item.catastropheredo.coper_oxide_2_helmet": "Weathered Copper Chestplate Helmet",
       "item.catastropheredo.oak_armor_helmet": "Oak Helmet",
       "item.catastropheredo.copper_oxide_1_helmet": "Exposed Copper Chestplate Helmet",
       "item.catastropheredo.copper_oxide_3_helmet": "Oxidized Copper Chestplate Helmet"
@@ -1511,6 +1672,10 @@
           },
           {
             "name": "Silver",
+            "children": []
+          },
+          {
+            "name": "SakuraTree",
             "children": []
           }
         ]

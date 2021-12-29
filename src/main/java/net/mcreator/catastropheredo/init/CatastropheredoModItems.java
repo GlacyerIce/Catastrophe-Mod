@@ -46,9 +46,9 @@ import net.mcreator.catastropheredo.item.Emerald_HoeItem;
 import net.mcreator.catastropheredo.item.Emerald_AxeItem;
 import net.mcreator.catastropheredo.item.Emerald_ArmorArmorItem;
 import net.mcreator.catastropheredo.item.CopperOxide3Item;
+import net.mcreator.catastropheredo.item.CopperOxide2Item;
 import net.mcreator.catastropheredo.item.CopperOxide1Item;
 import net.mcreator.catastropheredo.item.CopperOxide0Item;
-import net.mcreator.catastropheredo.item.CoperOxide2Item;
 import net.mcreator.catastropheredo.item.ChainMailItem;
 import net.mcreator.catastropheredo.item.CarefreeItem;
 
@@ -112,10 +112,10 @@ public class CatastropheredoModItems {
 	public static final Item COPPER_OXIDE_1_CHESTPLATE = register(new CopperOxide1Item.Chestplate());
 	public static final Item COPPER_OXIDE_1_LEGGINGS = register(new CopperOxide1Item.Leggings());
 	public static final Item COPPER_OXIDE_1_BOOTS = register(new CopperOxide1Item.Boots());
-	public static final Item COPER_OXIDE_2_HELMET = register(new CoperOxide2Item.Helmet());
-	public static final Item COPER_OXIDE_2_CHESTPLATE = register(new CoperOxide2Item.Chestplate());
-	public static final Item COPER_OXIDE_2_LEGGINGS = register(new CoperOxide2Item.Leggings());
-	public static final Item COPER_OXIDE_2_BOOTS = register(new CoperOxide2Item.Boots());
+	public static final Item COPPER_OXIDE_2_HELMET = register(new CopperOxide2Item.Helmet());
+	public static final Item COPPER_OXIDE_2_CHESTPLATE = register(new CopperOxide2Item.Chestplate());
+	public static final Item COPPER_OXIDE_2_LEGGINGS = register(new CopperOxide2Item.Leggings());
+	public static final Item COPPER_OXIDE_2_BOOTS = register(new CopperOxide2Item.Boots());
 	public static final Item COPPER_OXIDE_0_HELMET = register(new CopperOxide0Item.Helmet());
 	public static final Item COPPER_OXIDE_0_CHESTPLATE = register(new CopperOxide0Item.Chestplate());
 	public static final Item COPPER_OXIDE_0_LEGGINGS = register(new CopperOxide0Item.Leggings());
@@ -128,6 +128,9 @@ public class CatastropheredoModItems {
 	public static final Item INGOT_SILVER = register(new IngotSilverItem());
 	public static final Item SILVER_ORE = register(CatastropheredoModBlocks.SILVER_ORE, CatastropheredoModTabs.TAB_CATASTROPHIC_ORES);
 	public static final Item SILVER_NUGGET = register(new SilverNuggetItem());
+	public static final Item SAKURA_LOG = register(CatastropheredoModBlocks.SAKURA_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item SAKRUA_LEAVES = register(CatastropheredoModBlocks.SAKRUA_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final Item SAKURA_SAPLING = register(CatastropheredoModBlocks.SAKURA_SAPLING, CreativeModeTab.TAB_DECORATIONS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

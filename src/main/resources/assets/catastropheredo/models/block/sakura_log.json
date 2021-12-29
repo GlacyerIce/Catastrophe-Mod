@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "catastropheredo:blocks/sakura_log_top",
+    "up": "catastropheredo:blocks/sakura_log_top",
+    "north": "catastropheredo:blocks/sakura_log_side",
+    "east": "catastropheredo:blocks/sakura_log_side",
+    "south": "catastropheredo:blocks/sakura_log_side",
+    "west": "catastropheredo:blocks/sakura_log_side",
+    "particle": "catastropheredo:blocks/sakura_log_top"
+  }
+}

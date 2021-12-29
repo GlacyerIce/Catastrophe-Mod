@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "catastropheredo:blocks/sakura_leaves",
+    "particle": "catastropheredo:blocks/sakura_leaves"
+  }
+}
