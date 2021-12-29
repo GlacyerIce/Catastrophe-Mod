@@ -26,6 +26,7 @@ import net.mcreator.catastropheredo.item.SteelHoeItem;
 import net.mcreator.catastropheredo.item.SteelAxeItem;
 import net.mcreator.catastropheredo.item.SteelArmorItem;
 import net.mcreator.catastropheredo.item.SteelAppleItem;
+import net.mcreator.catastropheredo.item.SilverNuggetItem;
 import net.mcreator.catastropheredo.item.SakuraDiamondSwordItem;
 import net.mcreator.catastropheredo.item.SakuraDiamondShovelItem;
 import net.mcreator.catastropheredo.item.SakuraDiamondPickaxeItem;
@@ -34,7 +35,9 @@ import net.mcreator.catastropheredo.item.SakuraDiamondHoeItem;
 import net.mcreator.catastropheredo.item.SakuraDiamondArmorItem;
 import net.mcreator.catastropheredo.item.SakuraBattleAxeItem;
 import net.mcreator.catastropheredo.item.RawsteelItem;
+import net.mcreator.catastropheredo.item.RawSilverItem;
 import net.mcreator.catastropheredo.item.OakArmorItem;
+import net.mcreator.catastropheredo.item.IngotSilverItem;
 import net.mcreator.catastropheredo.item.GoldenSteakItem;
 import net.mcreator.catastropheredo.item.Emerald_SwordItem;
 import net.mcreator.catastropheredo.item.Emerald_ShovelItem;
@@ -121,6 +124,10 @@ public class CatastropheredoModItems {
 	public static final Item COPPER_OXIDE_3_CHESTPLATE = register(new CopperOxide3Item.Chestplate());
 	public static final Item COPPER_OXIDE_3_LEGGINGS = register(new CopperOxide3Item.Leggings());
 	public static final Item COPPER_OXIDE_3_BOOTS = register(new CopperOxide3Item.Boots());
+	public static final Item RAW_SILVER = register(new RawSilverItem());
+	public static final Item INGOT_SILVER = register(new IngotSilverItem());
+	public static final Item SILVER_ORE = register(CatastropheredoModBlocks.SILVER_ORE, CatastropheredoModTabs.TAB_CATASTROPHIC_ORES);
+	public static final Item SILVER_NUGGET = register(new SilverNuggetItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

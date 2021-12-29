@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.catastropheredo.block.TotallyAChestBlock;
 import net.mcreator.catastropheredo.block.SteelOreBlock;
 import net.mcreator.catastropheredo.block.SteelBlockBlock;
+import net.mcreator.catastropheredo.block.SilverOreBlock;
 import net.mcreator.catastropheredo.block.SakuraDiamondOreBlock;
 import net.mcreator.catastropheredo.block.SakuraDiamondBlockBlock;
 
@@ -27,6 +28,7 @@ public class CatastropheredoModBlocks {
 	public static final Block SAKURA_DIAMOND_BLOCK = register(new SakuraDiamondBlockBlock());
 	public static final Block TOTALLY_A_CHEST = register(new TotallyAChestBlock());
 	public static final Block SAKURA_DIAMOND_ORE = register(new SakuraDiamondOreBlock());
+	public static final Block SILVER_ORE = register(new SilverOreBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

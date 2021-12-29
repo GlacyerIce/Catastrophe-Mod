@@ -1236,6 +1236,78 @@
         "ec": true
       },
       "path": "~/items/armor/copper"
+    },
+    {
+      "name": "RawSilver",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver",
+      "path": "~/items/Silver"
+    },
+    {
+      "name": "IngotSilver",
+      "type": "item",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingot_silver",
+      "path": "~/items/Silver"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore",
+      "path": "~/items/Silver"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot",
+      "path": "~/recipes"
+    },
+    {
+      "name": "SilverIngot2",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_2",
+      "path": "~/recipes"
+    },
+    {
+      "name": "SilverNugget",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_nugget",
+      "path": "~/items/Silver"
+    },
+    {
+      "name": "SilverIngot3",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_3",
+      "path": "~/recipes"
+    },
+    {
+      "name": "Silvernugget1",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silvernugget_1",
+      "path": "~/recipes"
     }
   ],
   "variable_elements": [],
@@ -1273,6 +1345,7 @@
       "subtitles.carefree_disc": "Carefree By Kevin MacLeod",
       "biome.catastropheredo.sakura_mountains": "Sakura Mountains",
       "item.catastropheredo.steel_steak": "Steel Steak",
+      "block.catastropheredo.silver_ore": "Silver Ore",
       "item.catastropheredo.steel_apple": "Steel Apple",
       "item.catastropheredo.emerald_armor_armor_chestplate": "Emerald Chestplate",
       "item.catastropheredo.steel_armor_boots": "Steel Boots",
@@ -1321,17 +1394,20 @@
       "item.catastropheredo.carefree": "Carefree",
       "block.catastropheredo.sakura_diamond_ore": "Sakura Diamond Ore",
       "item.catastropheredo.steel_nugget": "Steel Nugget",
+      "item.catastropheredo.raw_silver": "Raw Silver",
       "block.catastropheredo.steel_ore": "Steel Ore",
       "item.catastropheredo.emerald_pickaxe": "Emerald Pickaxe",
       "item.catastropheredo.steel_armor_helmet": "Steel Helmet",
       "itemGroup.tabcatastrophe_music_discs": "Catastrophe Music Discs",
       "item.catastropheredo.oak_armor_leggings": "Oak Leggings",
       "item.catastropheredo.steel_armor_chestplate": "Steel Chestplate",
+      "item.catastropheredo.ingot_silver": "Ingot Silver",
       "itemGroup.tabcatastrophic_storage": "Catastrophic Storage",
       "itemGroup.tabcatastrophic_ores": "Catastrophic Ores",
       "item.catastropheredo.copper_oxide_1_chestplate": "Exposed Copper Chestplate Body",
       "itemGroup.tabcatastrophic_food": "Catastrophic Food",
       "item.catastropheredo.oak_armor_boots": "Oak Boots",
+      "item.catastropheredo.silver_nugget": "Silver Eighth Coin",
       "item.catastropheredo.copper_oxide_3_boots": "Oxidized Copper Chestplate Boots",
       "item.catastropheredo.steel_hoe": "Steel Hoe",
       "item.catastropheredo.copper_oxide_3_chestplate": "Oxidized Copper Chestplate Body",
@@ -1431,6 +1507,10 @@
           },
           {
             "name": "SakuraDiamond",
+            "children": []
+          },
+          {
+            "name": "Silver",
             "children": []
           }
         ]

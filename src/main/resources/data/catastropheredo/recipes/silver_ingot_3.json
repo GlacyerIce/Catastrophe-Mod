@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "catastropheredo:silver_nugget"
+    },
+    {
+      "item": "catastropheredo:silver_nugget"
+    },
+    {
+      "item": "catastropheredo:silver_nugget"
+    },
+    {
+      "item": "catastropheredo:silver_nugget"
+    },
+    {
+      "item": "catastropheredo:silver_nugget"
+    },
+    {
+      "item": "catastropheredo:silver_nugget"
+    },
+    {
+      "item": "catastropheredo:silver_nugget"
+    },
+    {
+      "item": "catastropheredo:silver_nugget"
+    }
+  ],
+  "result": {
+    "item": "catastropheredo:ingot_silver",
+    "count": 1
+  }
+}

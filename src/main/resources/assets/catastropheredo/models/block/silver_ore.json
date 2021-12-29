@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "catastropheredo:blocks/steel_ore",
+    "up": "catastropheredo:blocks/steel_ore",
+    "north": "catastropheredo:blocks/steel_ore",
+    "east": "catastropheredo:blocks/steel_ore",
+    "south": "catastropheredo:blocks/steel_ore",
+    "west": "catastropheredo:blocks/steel_ore",
+    "particle": "catastropheredo:blocks/steel_ore"
+  }
+}
