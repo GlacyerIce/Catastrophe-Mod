@@ -9,10 +9,11 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
 
 import net.mcreator.catastropheredo.init.CatastropheredoModItems;
-import net.mcreator.catastropheredo.CatastropheredoMod;
 
 public class CopperArmourTickEventProcedure {
 	public static void execute(LevelAccessor world, Entity entity, ItemStack itemstack) {
@@ -24,22 +25,35 @@ public class CopperArmourTickEventProcedure {
 		double oxide = 0;
 		double RandomTickerValue = 0;
 		double solt = 0;
-		if (!((world.getLevelData().getGameRules().getInt(GameRules.RULE_RANDOMTICKING)) > 0)) {
-			for (int index0 = 0; index0 < (int) ((world.getLevelData().getGameRules().getInt(GameRules.RULE_RANDOMTICKING)) / 3); index0++) {
+		ticks = itemstack.getOrCreateTag().getDouble("ticks");
+		oxide = itemstack.getOrCreateTag().getDouble("oxidise");
+		if (oxide == 3) {
+			if (entity instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 5, 2, (false), (false)));
+		} else if (oxide == 2) {
+			if (entity instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 5, 1, (false), (false)));
+		} else if (oxide == 1) {
+			if (entity instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 5, 0, (false), (false)));
+		}
+		if (itemstack.getOrCreateTag().getBoolean("waxed")) {
+			return;
+		}
+		if ((world.getLevelData().getGameRules().getInt(GameRules.RULE_RANDOMTICKING)) > 0) {
+			for (int index0 = 0; index0 < (int) ((world.getLevelData().getGameRules().getInt(GameRules.RULE_RANDOMTICKING))); index0++) {
 				if ((itemstack).isEnchanted() && (EnchantmentHelper.getItemEnchantmentLevel(Enchantments.MENDING, itemstack) != 0
 						|| EnchantmentHelper.getItemEnchantmentLevel(Enchantments.UNBREAKING, itemstack) != 0)) {
-					return;
+					break;
 				}
-				RandomTickerValue = Math.round(24000 * 50 + 24000 * 32 * Math.random());
+				RandomTickerValue = Math.round((24000 * 50 + 24000 * 32 * Math.random()) * 3);
 				ticker = itemstack.getOrCreateTag().getDouble("ticker");
 				if (ticker < 24000 * 50) {
 					itemstack.getOrCreateTag().putDouble("ticker", RandomTickerValue);
-					return;
+					break;
 				}
 				ticks = itemstack.getOrCreateTag().getDouble("ticks");
-				oxide = itemstack.getOrCreateTag().getDouble("oxidise");
 				itemstack.getOrCreateTag().putDouble("ticks", (ticks + 1));
-				CatastropheredoMod.LOGGER.info(new java.text.DecimalFormat("##.##").format(ticks));
 				if (ticks > ticker) {
 					if (oxide == 0) {
 						if (CatastropheredoModItems.COPPER_OXIDE_0_HELMET == itemstack.getItem()) {
@@ -85,7 +99,7 @@ public class CopperArmourTickEventProcedure {
 						}
 					}
 					if ((item).getItem() == (ItemStack.EMPTY).getItem()) {
-						return;
+						break;
 					}
 					(item).getOrCreateTag().putDouble("oxidise", (itemstack.getOrCreateTag().getDouble("oxidise") + 1));
 					(item).getOrCreateTag().putDouble("ticks", 1);
@@ -100,6 +114,7 @@ public class CopperArmourTickEventProcedure {
 					}
 					((item)).setDamageValue((itemstack).getDamageValue());
 					(item.getOrCreateTag()).put("Enchantments", itemstack.getEnchantmentTags());
+					break;
 				}
 			}
 		}
