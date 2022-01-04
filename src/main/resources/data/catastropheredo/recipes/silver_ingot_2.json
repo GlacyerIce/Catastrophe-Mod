@@ -1,0 +1,12 @@
+{
+  "group": "silver_ingot_smelt",
+  "type": "minecraft:smelting",
+  "experience": 0.6,
+  "cookingtime": 300,
+  "ingredient": {
+    "item": "catastropheredo:deleted_mod_element"
+  },
+  "result": {
+    "item": "catastropheredo:steel_ingot"
+  }
+}

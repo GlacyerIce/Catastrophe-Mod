@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "catastropheredo:copper_oxide_0_helmet"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result": {
+    "item": "catastropheredo:copper_oxide_0_helmet",
+    "count": 1
+  }
+}

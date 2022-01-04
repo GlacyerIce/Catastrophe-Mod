@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "silver_ingot_smelt",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawSilver"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:IngotSilver"
+    },
+    "name": "silver_ingot",
+    "namespace": "mod"
+  }
+}

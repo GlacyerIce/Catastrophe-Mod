@@ -1,25 +1,11 @@
 
 package net.mcreator.catastropheredo.item;
 
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
 
-import net.mcreator.catastropheredo.procedures.CopperArmourTickEventProcedure;
+public abstract class CopperOxide2Item extends ArmorItem {
 
-public abstract class CoperOxide2Item extends ArmorItem {
-	public CoperOxide2Item(EquipmentSlot slot, Item.Properties properties) {
+	public CopperOxide2Item(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
@@ -48,7 +34,7 @@ public abstract class CoperOxide2Item extends ArmorItem {
 
 			@Override
 			public String getName() {
-				return "coper_oxide_2";
+				return "copper_oxide_2";
 			}
 
 			@Override
@@ -63,10 +49,12 @@ public abstract class CoperOxide2Item extends ArmorItem {
 		}, slot, properties);
 	}
 
-	public static class Helmet extends CoperOxide2Item {
+	public static class Helmet extends CopperOxide2Item {
+
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(null));
-			setRegistryName("coper_oxide_2_helmet");
+
+			setRegistryName("copper_oxide_2_helmet");
 		}
 
 		@Override
@@ -80,10 +68,12 @@ public abstract class CoperOxide2Item extends ArmorItem {
 		}
 	}
 
-	public static class Chestplate extends CoperOxide2Item {
+	public static class Chestplate extends CopperOxide2Item {
+
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(null));
-			setRegistryName("coper_oxide_2_chestplate");
+
+			setRegistryName("copper_oxide_2_chestplate");
 		}
 
 		@Override
@@ -97,10 +87,12 @@ public abstract class CoperOxide2Item extends ArmorItem {
 		}
 	}
 
-	public static class Leggings extends CoperOxide2Item {
+	public static class Leggings extends CopperOxide2Item {
+
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(null));
-			setRegistryName("coper_oxide_2_leggings");
+
+			setRegistryName("copper_oxide_2_leggings");
 		}
 
 		@Override
@@ -114,10 +106,12 @@ public abstract class CoperOxide2Item extends ArmorItem {
 		}
 	}
 
-	public static class Boots extends CoperOxide2Item {
+	public static class Boots extends CopperOxide2Item {
+
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(null));
-			setRegistryName("coper_oxide_2_boots");
+
+			setRegistryName("copper_oxide_2_boots");
 		}
 
 		@Override
@@ -130,4 +124,5 @@ public abstract class CoperOxide2Item extends ArmorItem {
 			CopperArmourTickEventProcedure.execute(entity, itemstack);
 		}
 	}
+
 }

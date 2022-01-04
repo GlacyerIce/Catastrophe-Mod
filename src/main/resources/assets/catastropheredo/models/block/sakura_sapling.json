@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "catastropheredo:blocks/sakura_leaves",
+    "particle": "catastropheredo:blocks/sakura_leaves"
+  }
+}

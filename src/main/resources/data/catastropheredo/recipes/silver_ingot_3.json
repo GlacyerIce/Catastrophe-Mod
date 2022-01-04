@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "catastropheredo:deleted_mod_element"
+    },
+    {
+      "item": "catastropheredo:deleted_mod_element"
+    },
+    {
+      "item": "catastropheredo:deleted_mod_element"
+    },
+    {
+      "item": "catastropheredo:deleted_mod_element"
+    },
+    {
+      "item": "catastropheredo:deleted_mod_element"
+    },
+    {
+      "item": "catastropheredo:deleted_mod_element"
+    },
+    {
+      "item": "catastropheredo:deleted_mod_element"
+    },
+    {
+      "item": "catastropheredo:deleted_mod_element"
+    }
+  ],
+  "result": {
+    "item": "catastropheredo:deleted_mod_element",
+    "count": 1
+  }
+}

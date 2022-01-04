@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "catastropheredo:deleted_mod_element"
+    }
+  ],
+  "result": {
+    "item": "catastropheredo:silver_nugget",
+    "count": 8
+  }
+}
