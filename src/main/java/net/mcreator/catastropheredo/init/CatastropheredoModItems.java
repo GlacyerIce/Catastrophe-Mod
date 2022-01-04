@@ -121,6 +121,8 @@ public class CatastropheredoModItems {
 	public static final Item COPPER_OXIDE_3_CHESTPLATE = register(new CopperOxide3Item.Chestplate());
 	public static final Item COPPER_OXIDE_3_LEGGINGS = register(new CopperOxide3Item.Leggings());
 	public static final Item COPPER_OXIDE_3_BOOTS = register(new CopperOxide3Item.Boots());
+	public static final Item ABYSS_COBBLE = register(CatastropheredoModBlocks.ABYSS_COBBLE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item ABYSSROCK = register(CatastropheredoModBlocks.ABYSSROCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

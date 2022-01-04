@@ -1236,6 +1236,24 @@
         "ec": true
       },
       "path": "~/items/armor/copper"
+    },
+    {
+      "name": "AbyssCobble",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyss_cobble",
+      "path": "~/Dimensions/Abyss/Blocks"
+    },
+    {
+      "name": "Abyssrock",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssrock",
+      "path": "~/Dimensions/Abyss/Blocks"
     }
   ],
   "variable_elements": [],
@@ -1288,6 +1306,7 @@
       "item.catastropheredo.sakura_diamond_hoe": "Sakura Diamond Hoe",
       "enchantment.catastropheredo.random_potion_effect": "Random Negative Potion Effect",
       "item.catastropheredo.true_pigstep": "True Pigstep",
+      "block.catastropheredo.abyss_cobble": "Abyss Cobble",
       "item.catastropheredo.sakura_diamond_battle_axe": "Sakura Diamond Battle Axe",
       "block.catastropheredo.sakura_diamond_block": "Sakura Diamond Block",
       "itemGroup.tabcatastrophe_tools_and_weapons": "Catastrophe Tools And Weapons",
@@ -1319,6 +1338,7 @@
       "item.catastropheredo.sakura_diamond_shovel": "Sakura Diamond Shovel",
       "item.catastropheredo.copper_oxide_0_chestplate": "Copper Chestplate Body",
       "item.catastropheredo.carefree": "Carefree",
+      "block.catastropheredo.abyssrock": "Abyss Stone",
       "block.catastropheredo.sakura_diamond_ore": "Sakura Diamond Ore",
       "item.catastropheredo.steel_nugget": "Steel Nugget",
       "block.catastropheredo.steel_ore": "Steel Ore",
@@ -1422,6 +1442,36 @@
             "children": [
               {
                 "name": "copper",
+                "children": []
+              },
+              {
+                "name": "mythril",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dimensions",
+        "children": [
+          {
+            "name": "Abyss",
+            "children": [
+              {
+                "name": "Blocks",
+                "children": []
+              },
+              {
+                "name": "Items",
+                "children": []
+              },
+              {
+                "name": "entities",
+                "children": []
+              },
+              {
+                "name": "armor",
                 "children": []
               }
             ]

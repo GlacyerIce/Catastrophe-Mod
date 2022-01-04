@@ -15,6 +15,8 @@ import net.mcreator.catastropheredo.block.SteelOreBlock;
 import net.mcreator.catastropheredo.block.SteelBlockBlock;
 import net.mcreator.catastropheredo.block.SakuraDiamondOreBlock;
 import net.mcreator.catastropheredo.block.SakuraDiamondBlockBlock;
+import net.mcreator.catastropheredo.block.AbyssrockBlock;
+import net.mcreator.catastropheredo.block.AbyssCobbleBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -27,6 +29,8 @@ public class CatastropheredoModBlocks {
 	public static final Block SAKURA_DIAMOND_BLOCK = register(new SakuraDiamondBlockBlock());
 	public static final Block TOTALLY_A_CHEST = register(new TotallyAChestBlock());
 	public static final Block SAKURA_DIAMOND_ORE = register(new SakuraDiamondOreBlock());
+	public static final Block ABYSS_COBBLE = register(new AbyssCobbleBlock());
+	public static final Block ABYSSROCK = register(new AbyssrockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
