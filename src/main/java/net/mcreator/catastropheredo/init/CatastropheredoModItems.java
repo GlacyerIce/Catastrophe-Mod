@@ -131,6 +131,7 @@ public class CatastropheredoModItems {
 	public static final Item SAKURA_LOG = register(CatastropheredoModBlocks.SAKURA_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item SAKRUA_LEAVES = register(CatastropheredoModBlocks.SAKRUA_LEAVES, CreativeModeTab.TAB_DECORATIONS);
 	public static final Item SAKURA_SAPLING = register(CatastropheredoModBlocks.SAKURA_SAPLING, CreativeModeTab.TAB_DECORATIONS);
+	public static final Item SUPER_SLIP = register(CatastropheredoModBlocks.SUPER_SLIP, CreativeModeTab.TAB_DECORATIONS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

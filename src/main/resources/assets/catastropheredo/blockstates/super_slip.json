@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "catastropheredo:block/super_slip"
+    },
+    "facing=east": {
+      "model": "catastropheredo:block/super_slip",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "catastropheredo:block/super_slip",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "catastropheredo:block/super_slip",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "catastropheredo:block/super_slip",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "catastropheredo:block/super_slip",
+      "x": 90
+    }
+  }
+}

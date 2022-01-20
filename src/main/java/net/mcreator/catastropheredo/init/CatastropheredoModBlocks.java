@@ -14,6 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.catastropheredo.block.TotallyAChestBlock;
+import net.mcreator.catastropheredo.block.SuperSlipBlock;
 import net.mcreator.catastropheredo.block.SteelOreBlock;
 import net.mcreator.catastropheredo.block.SteelBlockBlock;
 import net.mcreator.catastropheredo.block.SilverOreBlock;
@@ -38,6 +39,7 @@ public class CatastropheredoModBlocks {
 	public static final Block SAKURA_LOG = register(new SakuraLogBlock());
 	public static final Block SAKRUA_LEAVES = register(new SakruaLeavesBlock());
 	public static final Block SAKURA_SAPLING = register(new SakuraSaplingBlock());
+	public static final Block SUPER_SLIP = register(new SuperSlipBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -54,6 +56,7 @@ public class CatastropheredoModBlocks {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			SakuraSaplingBlock.registerRenderLayer();
+			SuperSlipBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent

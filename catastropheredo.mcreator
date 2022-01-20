@@ -1492,6 +1492,15 @@
         ]
       },
       "path": "~/items/armor/copper"
+    },
+    {
+      "name": "SuperSlip",
+      "type": "block",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_slip",
+      "path": "~/items/superslipblocks"
     }
   ],
   "variable_elements": [],
@@ -1577,6 +1586,7 @@
       "item.catastropheredo.carefree.desc": "Carefree By Kevion MacLeod",
       "enchantment.catastropheredo.life_steal": "Life Steal",
       "item.catastropheredo.copper_oxide_0_boots": "Copper Chestplate Boots",
+      "block.catastropheredo.super_slip": "Super Slip",
       "item.catastropheredo.sakura_diamond_shovel": "Sakura Diamond Shovel",
       "item.catastropheredo.copper_oxide_0_chestplate": "Copper Chestplate Body",
       "item.catastropheredo.carefree": "Carefree",
@@ -1702,6 +1712,10 @@
           },
           {
             "name": "SakuraTree",
+            "children": []
+          },
+          {
+            "name": "superslipblocks",
             "children": []
           }
         ]
