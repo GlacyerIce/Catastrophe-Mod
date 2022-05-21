@@ -34,9 +34,8 @@ public class SteelHoeItem extends HoeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(CatastropheredoModItems.STEEL_INGOT));
+				return Ingredient.of(new ItemStack(CatastropheredoModItems.STEEL_INGOT.get()));
 			}
 		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-		setRegistryName("steel_hoe");
 	}
 }

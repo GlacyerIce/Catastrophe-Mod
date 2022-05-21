@@ -19,7 +19,6 @@ public class LifeStealProcedureProcedure {
 	@SubscribeEvent
 	public static void onEntityAttacked(LivingAttackEvent event) {
 		if (event != null && event.getEntity() != null) {
-			Entity entity = event.getEntity();
 			execute(event, event.getSource().getEntity(), event.getAmount());
 		}
 	}
@@ -36,9 +35,9 @@ public class LifeStealProcedureProcedure {
 		double DamageAt90 = 0;
 		double userHealth = 0;
 		double healthAdded = 0;
-		if (EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.LIFE_STEAL,
+		if (EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.LIFE_STEAL.get(),
 				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) > 0) {
-			EnchantLevel = EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.LIFE_STEAL,
+			EnchantLevel = EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.LIFE_STEAL.get(),
 					(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY));
 			Percentage = 3 / EnchantLevel;
 			DamageAt90 = amount * 0.9;

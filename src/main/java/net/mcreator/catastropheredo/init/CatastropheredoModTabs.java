@@ -46,7 +46,7 @@ public class CatastropheredoModTabs {
 		TAB_CATASTROPHIC_STORAGE = new CreativeModeTab("tabcatastrophic_storage") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(CatastropheredoModBlocks.TOTALLY_A_CHEST);
+				return new ItemStack(CatastropheredoModBlocks.TOTALLY_A_CHEST.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -57,7 +57,7 @@ public class CatastropheredoModTabs {
 		TAB_CATASTROPHE_TOOLS_AND_WEAPONS = new CreativeModeTab("tabcatastrophe_tools_and_weapons") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(CatastropheredoModItems.SAKURA_DIAMOND_BATTLE_AXE);
+				return new ItemStack(CatastropheredoModItems.SAKURA_DIAMOND_BATTLE_AXE.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -68,7 +68,7 @@ public class CatastropheredoModTabs {
 		TAB_CATASTROPHIC_ORES = new CreativeModeTab("tabcatastrophic_ores") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(CatastropheredoModBlocks.SAKURA_DIAMOND_ORE);
+				return new ItemStack(CatastropheredoModBlocks.SAKURA_DIAMOND_ORE.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -79,7 +79,7 @@ public class CatastropheredoModTabs {
 		TAB_CATASTROPHIC_FOOD = new CreativeModeTab("tabcatastrophic_food") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(CatastropheredoModItems.GOLDEN_STEAK);
+				return new ItemStack(CatastropheredoModItems.GOLDEN_STEAK.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

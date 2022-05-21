@@ -15,6 +15,6 @@ import net.mcreator.catastropheredo.client.renderer.GappleCowRenderer;
 public class CatastropheredoModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(CatastropheredoModEntities.GAPPLE_COW, GappleCowRenderer::new);
+		event.registerEntityRenderer(CatastropheredoModEntities.GAPPLE_COW.get(), GappleCowRenderer::new);
 	}
 }

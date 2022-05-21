@@ -21,8 +21,7 @@ public class EmeraldsheroofthevillageProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
-			Entity entity = event.player;
-			execute(event, entity);
+			execute(event, event.player);
 		}
 	}
 
@@ -34,13 +33,13 @@ public class EmeraldsheroofthevillageProcedure {
 		if (entity == null)
 			return;
 		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY)
-				.getItem() == CatastropheredoModItems.EMERALD_ARMOR_ARMOR_BOOTS
+				.getItem() == CatastropheredoModItems.EMERALD_ARMOR_ARMOR_BOOTS.get()
 				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY)
-						.getItem() == CatastropheredoModItems.EMERALD_ARMOR_ARMOR_LEGGINGS
+						.getItem() == CatastropheredoModItems.EMERALD_ARMOR_ARMOR_LEGGINGS.get()
 				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY)
-						.getItem() == CatastropheredoModItems.EMERALD_ARMOR_ARMOR_CHESTPLATE
+						.getItem() == CatastropheredoModItems.EMERALD_ARMOR_ARMOR_CHESTPLATE.get()
 				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)
-						.getItem() == CatastropheredoModItems.EMERALD_ARMOR_ARMOR_HELMET) {
+						.getItem() == CatastropheredoModItems.EMERALD_ARMOR_ARMOR_HELMET.get()) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.addEffect(new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 100, 1, (false), (false)));
 			if (entity instanceof LivingEntity _entity)

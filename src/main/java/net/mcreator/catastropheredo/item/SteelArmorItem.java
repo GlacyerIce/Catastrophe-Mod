@@ -41,7 +41,7 @@ public abstract class SteelArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(CatastropheredoModItems.STEEL_INGOT));
+				return Ingredient.of(new ItemStack(CatastropheredoModItems.STEEL_INGOT.get()));
 			}
 
 			@Override
@@ -64,7 +64,6 @@ public abstract class SteelArmorItem extends ArmorItem {
 	public static class Helmet extends SteelArmorItem {
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_ARMOR));
-			setRegistryName("steel_armor_helmet");
 		}
 
 		@Override
@@ -76,7 +75,6 @@ public abstract class SteelArmorItem extends ArmorItem {
 	public static class Chestplate extends SteelArmorItem {
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_ARMOR));
-			setRegistryName("steel_armor_chestplate");
 		}
 
 		@Override
@@ -88,7 +86,6 @@ public abstract class SteelArmorItem extends ArmorItem {
 	public static class Leggings extends SteelArmorItem {
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_ARMOR));
-			setRegistryName("steel_armor_leggings");
 		}
 
 		@Override
@@ -100,7 +97,6 @@ public abstract class SteelArmorItem extends ArmorItem {
 	public static class Boots extends SteelArmorItem {
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_ARMOR));
-			setRegistryName("steel_armor_boots");
 		}
 
 		@Override

@@ -38,7 +38,6 @@ public class SakuraSaplingBlock extends FlowerBlock {
 	public SakuraSaplingBlock() {
 		super(MobEffects.MOVEMENT_SPEED, 100,
 				BlockBehaviour.Properties.of(Material.PLANT).randomTicks().noCollission().sound(SoundType.GRASS).instabreak());
-		setRegistryName("sakura_sapling");
 	}
 
 	@Override
@@ -85,6 +84,6 @@ public class SakuraSaplingBlock extends FlowerBlock {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(CatastropheredoModBlocks.SAKURA_SAPLING, renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(CatastropheredoModBlocks.SAKURA_SAPLING.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

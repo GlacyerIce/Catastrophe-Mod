@@ -4,6 +4,7 @@ package net.mcreator.catastropheredo.item;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
@@ -18,12 +19,16 @@ public class SteelSteakItem extends Item {
 	public SteelSteakItem() {
 		super(new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHIC_FOOD).stacksTo(64).rarity(Rarity.EPIC)
 				.food((new FoodProperties.Builder()).nutrition(40).saturationMod(20f).alwaysEat().meat().build()));
-		setRegistryName("steel_steak");
 	}
 
 	@Override
-	public int getUseDuration(ItemStack stack) {
+	public int getUseDuration(ItemStack itemstack) {
 		return 10;
+	}
+
+	@Override
+	public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
+		return 0F;
 	}
 
 	@Override

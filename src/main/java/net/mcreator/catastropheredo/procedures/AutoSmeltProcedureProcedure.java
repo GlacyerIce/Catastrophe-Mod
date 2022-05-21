@@ -36,39 +36,39 @@ public class AutoSmeltProcedureProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.AUTO_SMELT,
+		if (EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.AUTO_SMELT.get(),
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) > 0) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()
-					.isCorrectToolForDrops((world.getBlockState(new BlockPos((int) x, (int) y, (int) z)))) == true) {
+					.isCorrectToolForDrops((world.getBlockState(new BlockPos(x, y, z)))) == true) {
 				if ((world instanceof Level _lvlCanSmelt
 						? _lvlCanSmelt.getRecipeManager()
 								.getRecipeFor(RecipeType.SMELTING,
-										new SimpleContainer(
-												(new ItemStack((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock()))),
-										_lvlCanSmelt)
+										new SimpleContainer((new ItemStack((world.getBlockState(new BlockPos(x, y, z))).getBlock()))), _lvlCanSmelt)
 								.isPresent()
 						: false) == true) {
 					if (world instanceof Level _level && !_level.isClientSide()) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.5), (z + 0.5),
 								((world instanceof Level _lvlSmeltResult && _lvlSmeltResult.getRecipeManager()
 										.getRecipeFor(RecipeType.SMELTING,
-												new SimpleContainer(
-														(new ItemStack((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock()))),
+												new SimpleContainer((new ItemStack((world.getBlockState(new BlockPos(x, y, z))).getBlock()))),
 												_lvlSmeltResult)
 										.isPresent())
-												? _lvlSmeltResult.getRecipeManager().getRecipeFor(RecipeType.SMELTING, new SimpleContainer(
-														(new ItemStack((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock()))),
-														_lvlSmeltResult).get().getResultItem().copy()
+												? _lvlSmeltResult.getRecipeManager()
+														.getRecipeFor(RecipeType.SMELTING,
+																new SimpleContainer(
+																		(new ItemStack((world.getBlockState(new BlockPos(x, y, z))).getBlock()))),
+																_lvlSmeltResult)
+														.get().getResultItem().copy()
 												: ItemStack.EMPTY));
 						entityToSpawn.setPickUpDelay(10);
 						_level.addFreshEntity(entityToSpawn);
 					}
-					world.setBlock(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.defaultBlockState(), 3);
+					world.setBlock(new BlockPos(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 				} else {
-					if (world instanceof Level) {
-						Block.dropResources(world.getBlockState(new BlockPos((int) x, (int) y, (int) z)), (Level) world,
-								new BlockPos((int) x, (int) y, (int) z));
-						world.destroyBlock(new BlockPos((int) x, (int) y, (int) z), false);
+					{
+						BlockPos _pos = new BlockPos(x, y, z);
+						Block.dropResources(world.getBlockState(_pos), world, new BlockPos(x, y, z), null);
+						world.destroyBlock(_pos, false);
 					}
 				}
 			}

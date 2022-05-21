@@ -13,6 +13,5 @@ public class CarefreeItem extends RecordItem {
 	public CarefreeItem() {
 		super(0, CatastropheredoModSounds.REGISTRY.get(new ResourceLocation("catastropheredo:carefree_disc")),
 				new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_MUSIC_DISCS).stacksTo(1).rarity(Rarity.RARE));
-		setRegistryName("carefree");
 	}
 }

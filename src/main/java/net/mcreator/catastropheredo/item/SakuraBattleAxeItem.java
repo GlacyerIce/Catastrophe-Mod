@@ -34,9 +34,8 @@ public class SakuraBattleAxeItem extends AxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(CatastropheredoModItems.SAKURA_DIAMOND));
+				return Ingredient.of(new ItemStack(CatastropheredoModItems.SAKURA_DIAMOND.get()));
 			}
 		}, 1, -2.7000000000000002f, new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_TOOLS_AND_WEAPONS));
-		setRegistryName("sakura_diamond_battle_axe");
 	}
 }

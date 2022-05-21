@@ -1,0 +1,33 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "wardensdagger",
+    "customModelName": "Normal",
+    "name": "Warden's Dagger",
+    "specialInfo": [
+      "Made from The Warden's rib"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 8.5,
+    "attackSpeed": 2.5,
+    "enchantability": 22,
+    "damageVsEntity": 4.0,
+    "usageCount": 2531,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:WardenRib"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -6,7 +6,6 @@ import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.Entity;
 
 import net.mcreator.catastropheredo.init.CatastropheredoModItems;
 
@@ -16,7 +15,6 @@ import javax.annotation.Nullable;
 public class OnCraftWaxedProcedure {
 	@SubscribeEvent
 	public static void onItemCrafted(PlayerEvent.ItemCraftedEvent event) {
-		Entity entity = event.getPlayer();
 		execute(event, event.getCrafting());
 	}
 
@@ -28,22 +26,22 @@ public class OnCraftWaxedProcedure {
 		if (itemstack.getOrCreateTag().getDouble("ticker") == 0) {
 			return;
 		}
-		if (itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_0_HELMET
-				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_0_CHESTPLATE
-				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_0_LEGGINGS
-				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_0_BOOTS
-				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_1_HELMET
-				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_1_CHESTPLATE
-				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_1_LEGGINGS
-				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_1_BOOTS
-				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_3_HELMET
-				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_3_CHESTPLATE
-				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_3_LEGGINGS
-				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_3_BOOTS
-				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_2_HELMET
-				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_2_CHESTPLATE
-				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_2_LEGGINGS
-				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_2_BOOTS) {
+		if (itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_0_HELMET.get()
+				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_0_CHESTPLATE.get()
+				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_0_LEGGINGS.get()
+				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_0_BOOTS.get()
+				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_1_HELMET.get()
+				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_1_CHESTPLATE.get()
+				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_1_LEGGINGS.get()
+				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_1_BOOTS.get()
+				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_3_HELMET.get()
+				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_3_CHESTPLATE.get()
+				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_3_LEGGINGS.get()
+				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_3_BOOTS.get()
+				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_2_HELMET.get()
+				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_2_CHESTPLATE.get()
+				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_2_LEGGINGS.get()
+				|| itemstack.getItem() == CatastropheredoModItems.COPPER_OXIDE_2_BOOTS.get()) {
 			itemstack.getOrCreateTag().putBoolean("waxed", (true));
 		}
 	}

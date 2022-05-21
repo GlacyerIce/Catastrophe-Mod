@@ -39,9 +39,9 @@ public class TotallyAChestBlock extends Block
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public TotallyAChestBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(1f, 12.5f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).sound(SoundType.WOOD).strength(1f, 12.5f)
+				.requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
-		setRegistryName("totally_a_chest");
 	}
 
 	@Override
@@ -69,13 +69,8 @@ public class TotallyAChestBlock extends Block
 	}
 
 	@Override
-	public MaterialColor defaultMaterialColor() {
-		return MaterialColor.WOOD;
-	}
-
-	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 0;
 		return false;
 	}

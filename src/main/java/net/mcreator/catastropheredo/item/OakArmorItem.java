@@ -66,7 +66,6 @@ public abstract class OakArmorItem extends ArmorItem {
 	public static class Helmet extends OakArmorItem {
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_ARMOR));
-			setRegistryName("oak_armor_helmet");
 		}
 
 		@Override
@@ -78,7 +77,6 @@ public abstract class OakArmorItem extends ArmorItem {
 	public static class Chestplate extends OakArmorItem {
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_ARMOR));
-			setRegistryName("oak_armor_chestplate");
 		}
 
 		@Override
@@ -90,7 +88,6 @@ public abstract class OakArmorItem extends ArmorItem {
 	public static class Leggings extends OakArmorItem {
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_ARMOR));
-			setRegistryName("oak_armor_leggings");
 		}
 
 		@Override
@@ -102,7 +99,6 @@ public abstract class OakArmorItem extends ArmorItem {
 	public static class Boots extends OakArmorItem {
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_ARMOR));
-			setRegistryName("oak_armor_boots");
 		}
 
 		@Override

@@ -34,9 +34,8 @@ public class SakuraDiamondHoeItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(CatastropheredoModItems.SAKURA_DIAMOND));
+				return Ingredient.of(new ItemStack(CatastropheredoModItems.SAKURA_DIAMOND.get()));
 			}
 		}, 1, -2.8f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-		setRegistryName("sakura_diamond_hoe");
 	}
 }

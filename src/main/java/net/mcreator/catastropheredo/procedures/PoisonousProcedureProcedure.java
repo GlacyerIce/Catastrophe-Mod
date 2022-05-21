@@ -21,8 +21,7 @@ public class PoisonousProcedureProcedure {
 	@SubscribeEvent
 	public static void onEntityAttacked(LivingAttackEvent event) {
 		if (event != null && event.getEntity() != null) {
-			Entity entity = event.getEntity();
-			execute(event, entity, event.getSource().getEntity());
+			execute(event, event.getEntity(), event.getSource().getEntity());
 		}
 	}
 
@@ -33,11 +32,11 @@ public class PoisonousProcedureProcedure {
 	private static void execute(@Nullable Event event, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		if (!(EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.POISONOUS,
+		if (!(EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.POISONOUS.get(),
 				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) == 0)) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.addEffect(new MobEffectInstance(MobEffects.POISON,
-						(int) (100 * EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.POISONOUS,
+						(int) (100 * EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.POISONOUS.get(),
 								(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY))),
 						5));
 		}

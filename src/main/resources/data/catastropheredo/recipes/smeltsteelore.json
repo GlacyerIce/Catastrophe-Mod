@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "catastropheredo:rawsteel"
   },
-  "result": {
-    "item": "catastropheredo:steel_ingot"
-  }
+  "result": "catastropheredo:steel_ingot"
 }

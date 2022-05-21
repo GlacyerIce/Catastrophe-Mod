@@ -21,8 +21,8 @@ import java.util.Collections;
 
 public class SteelOreBlock extends Block {
 	public SteelOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(4.5f, 10f).requiresCorrectToolForDrops());
-		setRegistryName("steel_ore");
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.STONE).sound(SoundType.STONE).strength(4.5f, 10f)
+				.requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -31,13 +31,8 @@ public class SteelOreBlock extends Block {
 	}
 
 	@Override
-	public MaterialColor defaultMaterialColor() {
-		return MaterialColor.STONE;
-	}
-
-	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}
@@ -47,6 +42,6 @@ public class SteelOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(CatastropheredoModItems.RAWSTEEL));
+		return Collections.singletonList(new ItemStack(CatastropheredoModItems.RAWSTEEL.get()));
 	}
 }

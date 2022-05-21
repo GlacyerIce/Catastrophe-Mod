@@ -36,6 +36,5 @@ public class Emerald_SwordItem extends SwordItem {
 				return Ingredient.of(new ItemStack(Items.EMERALD));
 			}
 		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-		setRegistryName("emerald_sword");
 	}
 }

@@ -34,9 +34,8 @@ public class SakuraDiamondSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(CatastropheredoModItems.SAKURA_DIAMOND));
+				return Ingredient.of(new ItemStack(CatastropheredoModItems.SAKURA_DIAMOND.get()));
 			}
 		}, 3, -1f, new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_TOOLS_AND_WEAPONS));
-		setRegistryName("sakura_diamond_sword");
 	}
 }

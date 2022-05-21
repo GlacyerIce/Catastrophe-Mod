@@ -14,7 +14,6 @@ import net.minecraft.core.BlockPos;
 public class SilverOreBlock extends Block {
 	public SilverOreBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
-		setRegistryName("silver_ore");
 	}
 
 	@Override
@@ -24,7 +23,7 @@ public class SilverOreBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}

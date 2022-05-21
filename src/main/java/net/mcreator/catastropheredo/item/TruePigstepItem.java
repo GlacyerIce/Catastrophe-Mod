@@ -13,6 +13,5 @@ public class TruePigstepItem extends RecordItem {
 	public TruePigstepItem() {
 		super(0, CatastropheredoModSounds.REGISTRY.get(new ResourceLocation("catastropheredo:technopigstep")),
 				new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_MUSIC_DISCS).stacksTo(1).rarity(Rarity.RARE));
-		setRegistryName("true_pigstep");
 	}
 }

@@ -47,7 +47,7 @@ public abstract class SakuraDiamondArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(CatastropheredoModItems.SAKURA_DIAMOND));
+				return Ingredient.of(new ItemStack(CatastropheredoModItems.SAKURA_DIAMOND.get()));
 			}
 
 			@Override
@@ -70,7 +70,6 @@ public abstract class SakuraDiamondArmorItem extends ArmorItem {
 	public static class Helmet extends SakuraDiamondArmorItem {
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_ARMOR));
-			setRegistryName("sakura_diamond_armor_helmet");
 		}
 
 		@Override
@@ -88,7 +87,6 @@ public abstract class SakuraDiamondArmorItem extends ArmorItem {
 	public static class Chestplate extends SakuraDiamondArmorItem {
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_ARMOR));
-			setRegistryName("sakura_diamond_armor_chestplate");
 		}
 
 		@Override
@@ -106,7 +104,6 @@ public abstract class SakuraDiamondArmorItem extends ArmorItem {
 	public static class Leggings extends SakuraDiamondArmorItem {
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_ARMOR));
-			setRegistryName("sakura_diamond_armor_leggings");
 		}
 
 		@Override
@@ -124,7 +121,6 @@ public abstract class SakuraDiamondArmorItem extends ArmorItem {
 	public static class Boots extends SakuraDiamondArmorItem {
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(CatastropheredoModTabs.TAB_CATASTROPHE_ARMOR));
-			setRegistryName("sakura_diamond_armor_boots");
 		}
 
 		@Override

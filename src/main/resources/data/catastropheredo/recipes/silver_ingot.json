@@ -6,7 +6,5 @@
   "ingredient": {
     "item": "catastropheredo:raw_silver"
   },
-  "result": {
-    "item": "catastropheredo:ingot_silver"
-  }
+  "result": "catastropheredo:ingot_silver"
 }

@@ -34,9 +34,8 @@ public class SteelSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(CatastropheredoModItems.STEEL_INGOT));
+				return Ingredient.of(new ItemStack(CatastropheredoModItems.STEEL_INGOT.get()));
 			}
 		}, 3, -2f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-		setRegistryName("steel_sword");
 	}
 }

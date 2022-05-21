@@ -2,8 +2,8 @@
 package net.mcreator.catastropheredo.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fmllegacy.network.NetworkHooks;
-import net.minecraftforge.fmllegacy.network.FMLPlayMessages;
+import net.minecraftforge.network.PlayMessages;
+import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
@@ -30,7 +30,6 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
@@ -54,11 +53,12 @@ public class GappleCowEntity extends Animal {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
 		if (SPAWN_BIOMES.contains(event.getName()))
-			event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(CatastropheredoModEntities.GAPPLE_COW, 20, 3, 5));
+			event.getSpawns().getSpawner(MobCategory.MONSTER)
+					.add(new MobSpawnSettings.SpawnerData(CatastropheredoModEntities.GAPPLE_COW.get(), 20, 3, 5));
 	}
 
-	public GappleCowEntity(FMLPlayMessages.SpawnEntity packet, Level world) {
-		this(CatastropheredoModEntities.GAPPLE_COW, world);
+	public GappleCowEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(CatastropheredoModEntities.GAPPLE_COW.get(), world);
 	}
 
 	public GappleCowEntity(EntityType<GappleCowEntity> type, Level world) {
@@ -90,7 +90,7 @@ public class GappleCowEntity extends Animal {
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(CatastropheredoModItems.GOLDEN_STEAK));
+		this.spawnAtLocation(new ItemStack(CatastropheredoModItems.GOLDEN_STEAK.get()));
 	}
 
 	@Override
@@ -123,31 +123,24 @@ public class GappleCowEntity extends Animal {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Entity sourceentity = source.getEntity();
-		Entity entity = this;
-		Level world = this.level;
-
-		GappleCowEntityDiesProcedure.execute(world, x, y, z);
+		GappleCowEntityDiesProcedure.execute(this.level, this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override
 	public AgeableMob getBreedOffspring(ServerLevel serverWorld, AgeableMob ageable) {
-		GappleCowEntity retval = CatastropheredoModEntities.GAPPLE_COW.create(serverWorld);
+		GappleCowEntity retval = CatastropheredoModEntities.GAPPLE_COW.get().create(serverWorld);
 		retval.finalizeSpawn(serverWorld, serverWorld.getCurrentDifficultyAt(retval.blockPosition()), MobSpawnType.BREEDING, null, null);
 		return retval;
 	}
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of(Items.WHEAT).contains(stack);
+		return List.of(Items.WHEAT).contains(stack.getItem());
 	}
 
 	public static void init() {
-		SpawnPlacements.register(CatastropheredoModEntities.GAPPLE_COW, SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL
+		SpawnPlacements.register(CatastropheredoModEntities.GAPPLE_COW.get(), SpawnPlacements.Type.ON_GROUND,
+				Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL
 						&& Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
 	}
 

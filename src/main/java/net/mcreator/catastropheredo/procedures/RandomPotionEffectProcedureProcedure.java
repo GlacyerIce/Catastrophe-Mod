@@ -24,8 +24,7 @@ public class RandomPotionEffectProcedureProcedure {
 	@SubscribeEvent
 	public static void onEntityAttacked(LivingAttackEvent event) {
 		if (event != null && event.getEntity() != null) {
-			Entity entity = event.getEntity();
-			execute(event, entity, event.getSource().getEntity());
+			execute(event, event.getEntity(), event.getSource().getEntity());
 		}
 	}
 
@@ -39,7 +38,7 @@ public class RandomPotionEffectProcedureProcedure {
 		double EnchantmentLevel = 0;
 		double time = 0;
 		double strength = 0;
-		EnchantmentLevel = EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.RANDOM_POTION_EFFECT,
+		EnchantmentLevel = EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.RANDOM_POTION_EFFECT.get(),
 				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY));
 		if (EnchantmentLevel > 0) {
 			if (entity instanceof LivingEntity) {

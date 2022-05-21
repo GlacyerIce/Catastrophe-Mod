@@ -207,15 +207,6 @@
       "path": "~/items/GoldenSteak"
     },
     {
-      "name": "GoldenSteak",
-      "type": "food",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "golden_steak",
-      "path": "~/items/GoldenSteak"
-    },
-    {
       "name": "AutoSmelt",
       "type": "enchantment",
       "sortid": 46,
@@ -391,15 +382,6 @@
           }
         ]
       },
-      "path": "~/items/SteelSteak"
-    },
-    {
-      "name": "SteelSteak",
-      "type": "food",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steel_steak",
       "path": "~/items/SteelSteak"
     },
     {
@@ -1074,15 +1056,6 @@
       "path": "~/Tabs"
     },
     {
-      "name": "SweetBerryStew",
-      "type": "food",
-      "sortid": 105,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sweet_berry_stew",
-      "path": "~/items/stewORsoup"
-    },
-    {
       "name": "SweetBstewRecipe",
       "type": "recipe",
       "sortid": 106,
@@ -1106,15 +1079,6 @@
           }
         ]
       },
-      "path": "~/items/SteelApple"
-    },
-    {
-      "name": "SteelApple",
-      "type": "food",
-      "sortid": 108,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steel_apple",
       "path": "~/items/SteelApple"
     },
     {
@@ -1501,6 +1465,78 @@
       "locked_code": false,
       "registry_name": "super_slip",
       "path": "~/items/superslipblocks"
+    },
+    {
+      "name": "GoldenSteak",
+      "type": "item",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_steak",
+      "path": "~/items/GoldenSteak"
+    },
+    {
+      "name": "SteelSteak",
+      "type": "item",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_steak",
+      "path": "~/items/SteelSteak"
+    },
+    {
+      "name": "SweetBerryStew",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_berry_stew",
+      "path": "~/items/stewORsoup"
+    },
+    {
+      "name": "SteelApple",
+      "type": "item",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_apple",
+      "path": "~/items/SteelApple"
+    },
+    {
+      "name": "WardenRib",
+      "type": "item",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_rib",
+      "path": "~/Sculk/Items"
+    },
+    {
+      "name": "WardenDagger",
+      "type": "tool",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_dagger",
+      "path": "~/Sculk/Items"
+    },
+    {
+      "name": "DeepslateStick",
+      "type": "item",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_stick",
+      "path": "~/Sculk/Items"
+    },
+    {
+      "name": "WardensDagger",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wardens_dagger",
+      "path": "~/Sculk/recipes"
     }
   ],
   "variable_elements": [],
@@ -1563,6 +1599,7 @@
       "itemGroup.tabcatastrophe_tools_and_weapons": "Catastrophe Tools And Weapons",
       "enchantment.catastropheredo.poisonous": "Poisonous",
       "enchantment.catastropheredo.auto_smelt": "Auto Smelt",
+      "item.catastropheredo.deepslate_stick": "Deepslate Stick",
       "item.catastropheredo.golden_steak": "Golden Steak",
       "block.catastropheredo.steel_block": "Steel Block",
       "item.catastropheredo.steel_ingot": "Steel Ingot",
@@ -1570,6 +1607,7 @@
       "item.catastropheredo.copper_oxide_0_helmet": "Copper Chestplate Helmet",
       "item.catastropheredo.sakura_diamond_armor_leggings": "Sakura Diamond Leggings",
       "item.catastropheredo.emerald_shovel": "Emerald Shovel",
+      "item.catastropheredo.warden_rib": "Warden\u0027s Rib",
       "item.catastropheredo.emerald_armor_armor_helmet": "Emerald Helmet",
       "block.catastropheredo.sakrua_leaves": "Sakura Leaves",
       "block.catastropheredo.sakura_sapling": "Sakura Sapling",
@@ -1608,6 +1646,7 @@
       "item.catastropheredo.silver_nugget": "Silver Eighth Coin",
       "item.catastropheredo.copper_oxide_3_boots": "Oxidized Copper Chestplate Boots",
       "item.catastropheredo.steel_hoe": "Steel Hoe",
+      "item.catastropheredo.warden_dagger": "Warden\u0027s Dagger",
       "item.catastropheredo.copper_oxide_3_chestplate": "Oxidized Copper Chestplate Body",
       "item.catastropheredo.sakura_diamond_sword": "Sakura Diamond Sword",
       "item.catastropheredo.steel_shovel": "Steel Shovel",
@@ -1723,6 +1762,27 @@
       {
         "name": "recipes",
         "children": []
+      },
+      {
+        "name": "Sculk",
+        "children": [
+          {
+            "name": "Entities",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "recipes",
+            "children": []
+          },
+          {
+            "name": "triggers",
+            "children": []
+          }
+        ]
       }
     ]
   },
@@ -1739,10 +1799,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.17.1",
+    "currentGenerator": "forge-1.18.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.catastropheredo",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100353117
+  "mcreatorVersion": 202200120510
 }

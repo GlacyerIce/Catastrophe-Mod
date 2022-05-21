@@ -20,7 +20,6 @@ import java.util.Collections;
 public class SakuraDiamondBlockBlock extends Block {
 	public SakuraDiamondBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(4f, 50f).requiresCorrectToolForDrops());
-		setRegistryName("sakura_diamond_block");
 	}
 
 	@Override
@@ -35,7 +34,7 @@ public class SakuraDiamondBlockBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 3;
 		return false;
 	}

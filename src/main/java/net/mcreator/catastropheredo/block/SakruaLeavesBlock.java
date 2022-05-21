@@ -23,7 +23,6 @@ public class SakruaLeavesBlock extends LeavesBlock {
 	public SakruaLeavesBlock() {
 		super(BlockBehaviour.Properties.of(Material.LEAVES).sound(SoundType.GRASS).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion()
 				.randomTicks());
-		setRegistryName("sakrua_leaves");
 	}
 
 	@Override
@@ -33,7 +32,7 @@ public class SakruaLeavesBlock extends LeavesBlock {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= -1;
 		return false;
 	}
@@ -42,6 +41,6 @@ public class SakruaLeavesBlock extends LeavesBlock {
 	public static void blockColorLoad(ColorHandlerEvent.Block event) {
 		event.getBlockColors().register((bs, world, pos, index) -> {
 			return world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColor.getDefaultColor();
-		}, CatastropheredoModBlocks.SAKRUA_LEAVES);
+		}, CatastropheredoModBlocks.SAKRUA_LEAVES.get());
 	}
 }

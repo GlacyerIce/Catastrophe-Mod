@@ -36,6 +36,5 @@ public class Emerald_HoeItem extends HoeItem {
 				return Ingredient.of(new ItemStack(Items.EMERALD));
 			}
 		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-		setRegistryName("emerald_hoe");
 	}
 }

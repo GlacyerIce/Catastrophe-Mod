@@ -16,15 +16,24 @@ package net.mcreator.catastropheredo;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.minecraftforge.fmllegacy.network.simple.SimpleChannel;
-import net.minecraftforge.fmllegacy.network.NetworkRegistry;
-import net.minecraftforge.fmllegacy.network.NetworkEvent;
+import net.minecraftforge.network.simple.SimpleChannel;
+import net.minecraftforge.network.NetworkRegistry;
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.IEventBus;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.catastropheredo.init.CatastropheredoModTabs;
+import net.mcreator.catastropheredo.init.CatastropheredoModItems;
+import net.mcreator.catastropheredo.init.CatastropheredoModFeatures;
+import net.mcreator.catastropheredo.init.CatastropheredoModEntities;
+import net.mcreator.catastropheredo.init.CatastropheredoModEnchantments;
+import net.mcreator.catastropheredo.init.CatastropheredoModBlocks;
+import net.mcreator.catastropheredo.init.CatastropheredoModBlockEntities;
+import net.mcreator.catastropheredo.init.CatastropheredoModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -41,6 +50,17 @@ public class CatastropheredoMod {
 
 	public CatastropheredoMod() {
 		CatastropheredoModTabs.load();
+		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		CatastropheredoModBlocks.REGISTRY.register(bus);
+		CatastropheredoModItems.REGISTRY.register(bus);
+		CatastropheredoModEntities.REGISTRY.register(bus);
+		CatastropheredoModBlockEntities.REGISTRY.register(bus);
+		CatastropheredoModFeatures.REGISTRY.register(bus);
+
+		CatastropheredoModEnchantments.REGISTRY.register(bus);
+
+		CatastropheredoModBiomes.REGISTRY.register(bus);
+
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

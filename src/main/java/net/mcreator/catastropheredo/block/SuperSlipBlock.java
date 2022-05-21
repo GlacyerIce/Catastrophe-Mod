@@ -35,7 +35,6 @@ public class SuperSlipBlock extends Block {
 		super(BlockBehaviour.Properties.of(Material.ICE_SOLID).sound(SoundType.GLASS).strength(1f, 10f).friction(1.098f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
-		setRegistryName("super_slip");
 	}
 
 	@Override
@@ -77,7 +76,7 @@ public class SuperSlipBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(CatastropheredoModBlocks.SUPER_SLIP, renderType -> renderType == RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer(CatastropheredoModBlocks.SUPER_SLIP.get(), renderType -> renderType == RenderType.translucent());
 	}
 
 }

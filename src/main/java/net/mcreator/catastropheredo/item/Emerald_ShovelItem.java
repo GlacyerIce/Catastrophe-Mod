@@ -36,6 +36,5 @@ public class Emerald_ShovelItem extends ShovelItem {
 				return Ingredient.of(new ItemStack(Items.EMERALD));
 			}
 		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-		setRegistryName("emerald_shovel");
 	}
 }

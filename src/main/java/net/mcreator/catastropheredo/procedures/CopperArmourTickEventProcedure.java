@@ -11,7 +11,6 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.server.level.ServerPlayer;
 
 import net.mcreator.catastropheredo.init.CatastropheredoModItems;
 
@@ -56,63 +55,64 @@ public class CopperArmourTickEventProcedure {
 				itemstack.getOrCreateTag().putDouble("ticks", (ticks + 1));
 				if (ticks > ticker) {
 					if (oxide == 0) {
-						if (CatastropheredoModItems.COPPER_OXIDE_0_HELMET == itemstack.getItem()) {
-							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_1_HELMET);
+						if (CatastropheredoModItems.COPPER_OXIDE_0_HELMET.get() == itemstack.getItem()) {
+							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_1_HELMET.get());
 							solt = 3;
-						} else if (CatastropheredoModItems.COPPER_OXIDE_0_CHESTPLATE == itemstack.getItem()) {
-							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_1_CHESTPLATE);
+						} else if (CatastropheredoModItems.COPPER_OXIDE_0_CHESTPLATE.get() == itemstack.getItem()) {
+							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_1_CHESTPLATE.get());
 							solt = 2;
-						} else if (CatastropheredoModItems.COPPER_OXIDE_0_LEGGINGS == itemstack.getItem()) {
-							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_1_LEGGINGS);
+						} else if (CatastropheredoModItems.COPPER_OXIDE_0_LEGGINGS.get() == itemstack.getItem()) {
+							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_1_LEGGINGS.get());
 							solt = 1;
-						} else if (CatastropheredoModItems.COPPER_OXIDE_0_BOOTS == itemstack.getItem()) {
-							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_1_BOOTS);
+						} else if (CatastropheredoModItems.COPPER_OXIDE_0_BOOTS.get() == itemstack.getItem()) {
+							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_1_BOOTS.get());
 							solt = 0;
 						}
 					} else if (oxide == 1) {
-						if (CatastropheredoModItems.COPPER_OXIDE_1_HELMET == itemstack.getItem()) {
-							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_2_HELMET);
+						if (CatastropheredoModItems.COPPER_OXIDE_1_HELMET.get() == itemstack.getItem()) {
+							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_2_HELMET.get());
 							solt = 3;
-						} else if (CatastropheredoModItems.COPPER_OXIDE_1_CHESTPLATE == itemstack.getItem()) {
-							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_2_CHESTPLATE);
+						} else if (CatastropheredoModItems.COPPER_OXIDE_1_CHESTPLATE.get() == itemstack.getItem()) {
+							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_2_CHESTPLATE.get());
 							solt = 2;
-						} else if (CatastropheredoModItems.COPPER_OXIDE_1_LEGGINGS == itemstack.getItem()) {
-							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_2_LEGGINGS);
+						} else if (CatastropheredoModItems.COPPER_OXIDE_1_LEGGINGS.get() == itemstack.getItem()) {
+							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_2_LEGGINGS.get());
 							solt = 1;
-						} else if (CatastropheredoModItems.COPPER_OXIDE_1_BOOTS == itemstack.getItem()) {
-							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_2_BOOTS);
+						} else if (CatastropheredoModItems.COPPER_OXIDE_1_BOOTS.get() == itemstack.getItem()) {
+							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_2_BOOTS.get());
 							solt = 0;
 						}
 					} else if (oxide == 2) {
-						if (CatastropheredoModItems.COPPER_OXIDE_2_HELMET == itemstack.getItem()) {
-							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_3_HELMET);
+						if (CatastropheredoModItems.COPPER_OXIDE_2_HELMET.get() == itemstack.getItem()) {
+							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_3_HELMET.get());
 							solt = 3;
-						} else if (CatastropheredoModItems.COPPER_OXIDE_2_CHESTPLATE == itemstack.getItem()) {
-							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_3_CHESTPLATE);
+						} else if (CatastropheredoModItems.COPPER_OXIDE_2_CHESTPLATE.get() == itemstack.getItem()) {
+							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_3_CHESTPLATE.get());
 							solt = 2;
-						} else if (CatastropheredoModItems.COPPER_OXIDE_2_LEGGINGS == itemstack.getItem()) {
-							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_3_LEGGINGS);
+						} else if (CatastropheredoModItems.COPPER_OXIDE_2_LEGGINGS.get() == itemstack.getItem()) {
+							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_3_LEGGINGS.get());
 							solt = 1;
-						} else if (CatastropheredoModItems.COPPER_OXIDE_2_BOOTS == itemstack.getItem()) {
-							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_3_BOOTS);
+						} else if (CatastropheredoModItems.COPPER_OXIDE_2_BOOTS.get() == itemstack.getItem()) {
+							item = new ItemStack(CatastropheredoModItems.COPPER_OXIDE_3_BOOTS.get());
 							solt = 0;
 						}
 					}
-					if ((item).getItem() == (ItemStack.EMPTY).getItem()) {
+					if (item.getItem() == (ItemStack.EMPTY).getItem()) {
 						break;
 					}
-					(item).getOrCreateTag().putDouble("oxidise", (itemstack.getOrCreateTag().getDouble("oxidise") + 1));
-					(item).getOrCreateTag().putDouble("ticks", 1);
-					(item).getOrCreateTag().putDouble("ticker", RandomTickerValue);
-					if (entity instanceof LivingEntity _entity) {
-						if (_entity instanceof Player _player)
-							_player.getInventory().armor.set((int) solt, (item));
-						else
-							_entity.setItemSlot(EquipmentSlot.byTypeAndIndex(EquipmentSlot.Type.ARMOR, (int) solt), (item));
-						if (_entity instanceof ServerPlayer _serverPlayer)
-							_serverPlayer.getInventory().setChanged();
+					item.getOrCreateTag().putDouble("oxidise", (itemstack.getOrCreateTag().getDouble("oxidise") + 1));
+					item.getOrCreateTag().putDouble("ticks", 1);
+					item.getOrCreateTag().putDouble("ticker", RandomTickerValue);
+					{
+						Entity _entity = entity;
+						if (_entity instanceof Player _player) {
+							_player.getInventory().armor.set((int) solt, item);
+							_player.getInventory().setChanged();
+						} else if (_entity instanceof LivingEntity _living) {
+							_living.setItemSlot(EquipmentSlot.byTypeAndIndex(EquipmentSlot.Type.ARMOR, (int) solt), item);
+						}
 					}
-					((item)).setDamageValue((itemstack).getDamageValue());
+					(item).setDamageValue((itemstack).getDamageValue());
 					(item.getOrCreateTag()).put("Enchantments", itemstack.getEnchantmentTags());
 					break;
 				}

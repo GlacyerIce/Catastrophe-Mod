@@ -22,8 +22,8 @@ public class SakuraSaplingUpdateTickProcedure {
 					StructureTemplate template = _serverworld.getStructureManager()
 							.getOrCreate(new ResourceLocation("catastropheredo", "sakura_tree_normal"));
 					if (template != null) {
-						template.placeInWorld(_serverworld, new BlockPos((int) (x - 4), (int) (height_modifier + y), (int) (z - 4)),
-								new BlockPos((int) (x - 4), (int) (height_modifier + y), (int) (z - 4)),
+						template.placeInWorld(_serverworld, new BlockPos(x - 4, height_modifier + y, z - 4),
+								new BlockPos(x - 4, height_modifier + y, z - 4),
 								new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
 								_serverworld.random, 3);
 					}
@@ -33,15 +33,15 @@ public class SakuraSaplingUpdateTickProcedure {
 					StructureTemplate template = _serverworld.getStructureManager()
 							.getOrCreate(new ResourceLocation("catastropheredo", "sakura_tree_flat"));
 					if (template != null) {
-						template.placeInWorld(_serverworld, new BlockPos((int) (x - 4), (int) (height_modifier + y), (int) (z - 4)),
-								new BlockPos((int) (x - 4), (int) (height_modifier + y), (int) (z - 4)),
+						template.placeInWorld(_serverworld, new BlockPos(x - 4, height_modifier + y, z - 4),
+								new BlockPos(x - 4, height_modifier + y, z - 4),
 								new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
 								_serverworld.random, 3);
 					}
 				}
 			}
 			while (ittr + 1 < height_modifier) {
-				world.setBlock(new BlockPos((int) x, (int) ((ittr + y) - 0), (int) z), CatastropheredoModBlocks.SAKURA_LOG.defaultBlockState(), 3);
+				world.setBlock(new BlockPos(x, (ittr + y) - 0, z), CatastropheredoModBlocks.SAKURA_LOG.get().defaultBlockState(), 3);
 				ittr = ittr + 1;
 			}
 		}

@@ -62,7 +62,6 @@ public abstract class CopperOxide3Item extends ArmorItem {
 	public static class Helmet extends CopperOxide3Item {
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(null));
-			setRegistryName("copper_oxide_3_helmet");
 		}
 
 		@Override
@@ -74,7 +73,6 @@ public abstract class CopperOxide3Item extends ArmorItem {
 	public static class Chestplate extends CopperOxide3Item {
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(null));
-			setRegistryName("copper_oxide_3_chestplate");
 		}
 
 		@Override
@@ -86,7 +84,6 @@ public abstract class CopperOxide3Item extends ArmorItem {
 	public static class Leggings extends CopperOxide3Item {
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(null));
-			setRegistryName("copper_oxide_3_leggings");
 		}
 
 		@Override
@@ -98,7 +95,6 @@ public abstract class CopperOxide3Item extends ArmorItem {
 	public static class Boots extends CopperOxide3Item {
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(null));
-			setRegistryName("copper_oxide_3_boots");
 		}
 
 		@Override

@@ -19,8 +19,8 @@ import java.util.Collections;
 
 public class SteelBlockBlock extends Block {
 	public SteelBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(4.9f, 10f).requiresCorrectToolForDrops());
-		setRegistryName("steel_block");
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.METAL).sound(SoundType.METAL).strength(4.9f, 10f)
+				.requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -29,13 +29,8 @@ public class SteelBlockBlock extends Block {
 	}
 
 	@Override
-	public MaterialColor defaultMaterialColor() {
-		return MaterialColor.METAL;
-	}
-
-	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}

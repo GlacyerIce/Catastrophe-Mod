@@ -21,8 +21,7 @@ public class WitheringProcedureProcedure {
 	@SubscribeEvent
 	public static void onEntityAttacked(LivingAttackEvent event) {
 		if (event != null && event.getEntity() != null) {
-			Entity entity = event.getEntity();
-			execute(event, entity, event.getSource().getEntity());
+			execute(event, event.getEntity(), event.getSource().getEntity());
 		}
 	}
 
@@ -33,13 +32,13 @@ public class WitheringProcedureProcedure {
 	private static void execute(@Nullable Event event, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		if (!(EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.WITHERING,
+		if (!(EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.WITHERING.get(),
 				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) == 0)) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.addEffect(new MobEffectInstance(MobEffects.WITHER,
-						(int) (100 * EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.WITHERING,
+						(int) (100 * EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.WITHERING.get(),
 								(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY))),
-						(int) (1 * EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.WITHERING,
+						(int) (1 * EnchantmentHelper.getItemEnchantmentLevel(CatastropheredoModEnchantments.WITHERING.get(),
 								(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)))));
 		}
 	}
