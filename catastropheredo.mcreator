@@ -1588,6 +1588,15 @@
       "locked_code": false,
       "registry_name": "reinforced_boots",
       "path": "~/Sculk/recipes/reinforced"
+    },
+    {
+      "name": "WardensRipTEMPORARY",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wardens_rip_temporary",
+      "path": "~/Sculk/recipes"
     }
   ],
   "variable_elements": [],
@@ -1613,8 +1622,8 @@
     "en_us": {
       "item.catastropheredo.emerald_sword": "Emerald Sword",
       "item.catastropheredo.sakura_diamond_armor_helmet": "Sakura Diamond Helmet",
-      "item.catastropheredo.copper_oxide_2_chestplate": "Weathered Copper Chestplate Body",
       "item.catastropheredo.reinforced_netherite_boots": "Reinforced Netherite Boots",
+      "item.catastropheredo.copper_oxide_2_chestplate": "Weathered Copper Chestplate Body",
       "item.catastropheredo.copper_oxide_2_boots": "Weathered Copper Chestplate Boots",
       "item.catastropheredo.chain_mail": "Chain Mail",
       "item.catastropheredo.emerald_armor_armor_boots": "Emerald Boots",
@@ -1655,8 +1664,8 @@
       "itemGroup.tabcatastrophe_music_discs": "Catastrophe Music Discs",
       "item.catastropheredo.oak_armor_leggings": "Oak Leggings",
       "item.catastropheredo.ingot_silver": "Ingot Silver",
-      "itemGroup.tabcatastrophic_storage": "Catastrophic Storage",
       "item.catastropheredo.copper_oxide_1_chestplate": "Exposed Copper Chestplate Body",
+      "itemGroup.tabcatastrophic_storage": "Catastrophic Storage",
       "itemGroup.tabcatastrophic_food": "Catastrophic Food",
       "item.catastropheredo.steel_hoe": "Steel Hoe",
       "item.catastropheredo.warden_dagger": "Warden\u0027s Dagger",
