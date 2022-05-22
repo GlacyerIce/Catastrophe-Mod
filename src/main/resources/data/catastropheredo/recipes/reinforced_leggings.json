@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "catastropheredo:warden_rib"
+    },
+    "1": {
+      "item": "catastropheredo:warden_rib"
+    },
+    "2": {
+      "item": "catastropheredo:warden_rib"
+    },
+    "3": {
+      "item": "catastropheredo:warden_rib"
+    },
+    "4": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "5": {
+      "item": "catastropheredo:warden_rib"
+    },
+    "6": {
+      "item": "catastropheredo:warden_rib"
+    },
+    "8": {
+      "item": "catastropheredo:warden_rib"
+    }
+  },
+  "result": {
+    "item": "catastropheredo:reinforced_netherite_leggings",
+    "count": 1
+  }
+}

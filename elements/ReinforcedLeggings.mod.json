@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WardenRib"
+      },
+      {
+        "value": "CUSTOM:WardenRib"
+      },
+      {
+        "value": "CUSTOM:WardenRib"
+      },
+      {
+        "value": "CUSTOM:WardenRib"
+      },
+      {
+        "value": "Items.NETHERITE_LEGGINGS"
+      },
+      {
+        "value": "CUSTOM:WardenRib"
+      },
+      {
+        "value": "CUSTOM:WardenRib"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WardenRib"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ReinforcedNetherite.legs"
+    },
+    "name": "reinforced_leggings",
+    "namespace": "mod"
+  }
+}

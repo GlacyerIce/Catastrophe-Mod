@@ -1,0 +1,73 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "reinforced_netherite_helmet",
+    "enableBody": true,
+    "textureBody": "reinforced_netherite_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "reinforced_netherite_leggings",
+    "enableBoots": true,
+    "textureBoots": "reinforced_netherite_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "reinforced_netherite_",
+    "helmetName": "Reinforced Netherite Helmet",
+    "bodyName": "Reinforced Netherite Chestplate",
+    "leggingsName": "Reinforced Netherite Leggings",
+    "bootsName": "Reinforced Netherite Boots",
+    "helmetSpecialInfo": [
+      "A helmet reinforced with the ribs of a Warden"
+    ],
+    "bodySpecialInfo": [
+      "A chestplate reinforced with the ribs of a Warden"
+    ],
+    "leggingsSpecialInfo": [
+      "Leggings reinforced with the ribs of a Warden"
+    ],
+    "bootsSpecialInfo": [
+      "Boots reinforced with the ribs of a Warden"
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 25,
+    "damageValueHelmet": 4,
+    "damageValueBody": 10,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 4,
+    "enchantability": 9,
+    "toughness": 4.5,
+    "knockbackResistance": 0.3,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:WardenRib"
+      }
+    ]
+  }
+}

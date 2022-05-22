@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "catastropheredo:warden_rib"
+    },
+    "1": {
+      "item": "catastropheredo:warden_rib"
+    },
+    "2": {
+      "item": "catastropheredo:warden_rib"
+    },
+    "3": {
+      "item": "catastropheredo:warden_rib"
+    },
+    "4": {
+      "item": "minecraft:netherite_helmet"
+    },
+    "5": {
+      "item": "catastropheredo:warden_rib"
+    }
+  },
+  "result": {
+    "item": "catastropheredo:reinforced_netherite_helmet",
+    "count": 1
+  }
+}

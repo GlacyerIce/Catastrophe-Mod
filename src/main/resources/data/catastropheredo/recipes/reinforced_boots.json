@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "catastropheredo:warden_rib"
+    },
+    "1": {
+      "item": "minecraft:netherite_boots"
+    },
+    "2": {
+      "item": "catastropheredo:warden_rib"
+    },
+    "3": {
+      "item": "catastropheredo:warden_rib"
+    },
+    "5": {
+      "item": "catastropheredo:warden_rib"
+    }
+  },
+  "result": {
+    "item": "catastropheredo:reinforced_netherite_boots",
+    "count": 1
+  }
+}

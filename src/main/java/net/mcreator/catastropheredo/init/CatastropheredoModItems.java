@@ -36,6 +36,7 @@ import net.mcreator.catastropheredo.item.SakuraDiamondItem;
 import net.mcreator.catastropheredo.item.SakuraDiamondHoeItem;
 import net.mcreator.catastropheredo.item.SakuraDiamondArmorItem;
 import net.mcreator.catastropheredo.item.SakuraBattleAxeItem;
+import net.mcreator.catastropheredo.item.ReinforcedNetheriteItem;
 import net.mcreator.catastropheredo.item.RawsteelItem;
 import net.mcreator.catastropheredo.item.RawSilverItem;
 import net.mcreator.catastropheredo.item.OakArmorItem;
@@ -157,6 +158,14 @@ public class CatastropheredoModItems {
 	public static final RegistryObject<Item> WARDEN_RIB = REGISTRY.register("warden_rib", () -> new WardenRibItem());
 	public static final RegistryObject<Item> WARDEN_DAGGER = REGISTRY.register("warden_dagger", () -> new WardenDaggerItem());
 	public static final RegistryObject<Item> DEEPSLATE_STICK = REGISTRY.register("deepslate_stick", () -> new DeepslateStickItem());
+	public static final RegistryObject<Item> REINFORCED_NETHERITE_HELMET = REGISTRY.register("reinforced_netherite_helmet",
+			() -> new ReinforcedNetheriteItem.Helmet());
+	public static final RegistryObject<Item> REINFORCED_NETHERITE_CHESTPLATE = REGISTRY.register("reinforced_netherite_chestplate",
+			() -> new ReinforcedNetheriteItem.Chestplate());
+	public static final RegistryObject<Item> REINFORCED_NETHERITE_LEGGINGS = REGISTRY.register("reinforced_netherite_leggings",
+			() -> new ReinforcedNetheriteItem.Leggings());
+	public static final RegistryObject<Item> REINFORCED_NETHERITE_BOOTS = REGISTRY.register("reinforced_netherite_boots",
+			() -> new ReinforcedNetheriteItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
